@@ -1,0 +1,2165 @@
+28-Mar-2014 13:11:06 CDT  Initiating request to open file file:/uscms_data/d3/jiansun/data/2011reco_highpt_FC6D2776-DF12-E111-82F2-E0CB4E4408D2.root
+28-Mar-2014 13:11:07 CDT  Successfully opened file file:/uscms_data/d3/jiansun/data/2011reco_highpt_FC6D2776-DF12-E111-82F2-E0CB4E4408D2.root
+ Beginning HLTBitAnalyzer Analysis 
+----------------------------------------------------------------------
+--- HFDumpStuff constructor
+---  verbose:                    0
+---  LumiSummaryLabel:           InputTag:  label = lumiProducer, instance = 
+---  BeamSpotLabel:              InputTag:  label = offlineBeamSpot, instance = 
+---  PrimaryVertexLabel:         InputTag:  label = hiSelectedVertex, instance = 
+---  PrimaryVertexTracksLabel:   InputTag:  label = hiSelectedTracks, instance = 
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+--- HFD0 constructor
+---  verbose                     0
+---  tracksLabel                 InputTag:  label = hiSelectedTracks, instance = 
+---  trackQualityString          highPurity
+---  PrimaryVertexLabel          InputTag:  label = hiSelectedVertex, instance = 
+---  BeamSpotLabel               InputTag:  label = offlineBeamSpot, instance = 
+---  trackPt                     1
+---  deltaR                      99
+---  maxDoca                     0.2
+---  maxD0                       2
+---  maxDz                       99
+---  pvWeight:                   0.6
+---  type                        2
+---  D0Window:                 0.2
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+--- HFTree constructor
+---  verbose:                         1
+---  printFrequency:                  500
+---  treeName:                        T1
+---  requireCand:                     false
+---  fullGenBlock:                    false
+----------------------------------------------------------------------
+Initalizing HLTConfigProvider
+Begin processing the 1st record. Run 181913, Event 333519, LumiSection 10 at 28-Mar-2014 13:11:11.324 CDT
+dummy : 0
+dummy : 1
+dummy : 2
+dummy : 3
+dummy : 4
+dummy : 5
+dummy : 6
+dummy : 7
+dummy : 8
+dummy : 9
+dummy : 10
+dummy : 11
+dummy : 12
+dummy : 13
+dummy : 14
+dummy : 15
+dummy : 16
+dummy : 17
+dummy : 18
+dummy : 19
+dummy : 20
+dummy : 21
+dummy : 22
+dummy : 23
+dummy : 24
+dummy : 25
+dummy : 26
+dummy : 27
+dummy : 28
+dummy : 29
+dummy : 30
+dummy : 31
+dummy : 32
+dummy : 33
+dummy : 34
+dummy : 35
+Adding branch : HLT_HIMET120_v1
+dummy : 36
+Adding branch : HLT_HIMET200_v1
+dummy : 37
+Adding branch : HLT_HIMET220_v1
+dummy : 38
+dummy : 39
+dummy : 40
+dummy : 41
+Adding branch : HLT_HISinglePhoton20_v1
+dummy : 42
+Adding branch : HLT_HISinglePhoton30_v1
+dummy : 43
+Adding branch : HLT_HISinglePhoton40_v1
+dummy : 44
+dummy : 45
+Adding branch : HLT_HICentral10_v1
+dummy : 46
+dummy : 47
+dummy : 48
+dummy : 49
+dummy : 50
+dummy : 51
+dummy : 52
+dummy : 53
+dummy : 54
+dummy : 55
+dummy : 56
+dummy : 57
+dummy : 58
+Adding branch : HLT_HIPhysics_v1
+dummy : 59
+dummy : 60
+Adding branch : HLT_HIUCC010_v1
+dummy : 61
+Adding branch : HLT_HIUCC015_v1
+dummy : 62
+dummy : 63
+dummy : 64
+dummy : 65
+dummy : 66
+dummy : 67
+dummy : 68
+dummy : 69
+dummy : 70
+dummy : 71
+Adding branch : HLT_HIL1DoubleMu0_HighQ_v2
+dummy : 72
+Adding branch : HLT_HIL1DoubleMuOpen_v2
+dummy : 73
+Adding branch : HLT_HIL2DoubleMu0_L1HighQL2NHitQ_v2
+dummy : 74
+Adding branch : HLT_HIL2DoubleMu0_NHitQ_v2
+dummy : 75
+Adding branch : HLT_HIL2DoubleMu0_v2
+dummy : 76
+Adding branch : HLT_HIL2DoubleMu3_v2
+dummy : 77
+Adding branch : HLT_HIL2Mu15_v2
+dummy : 78
+Adding branch : HLT_HIL2Mu3_NHitQ_v2
+dummy : 79
+Adding branch : HLT_HIL2Mu3_v2
+dummy : 80
+Adding branch : HLT_HIL2Mu7_v2
+dummy : 81
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_OS_NoCowboy_v2
+dummy : 82
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_OS_v2
+dummy : 83
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_SS_v2
+dummy : 84
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_v2
+dummy : 85
+Adding branch : HLT_HIL3DoubleMuOpen_v2
+dummy : 86
+Adding branch : HLT_HIL3Mu3_v2
+dummy : 87
+Adding branch : HLT_HIDiJet55_v2
+dummy : 88
+Adding branch : HLT_HIDoublePhoton10_v2
+dummy : 89
+Adding branch : HLT_HIDoublePhoton15_v2
+dummy : 90
+Adding branch : HLT_HIDoublePhoton20_v2
+dummy : 91
+Adding branch : HLT_HIFullTrack12_L1Central_v2
+dummy : 92
+Adding branch : HLT_HIFullTrack12_L1Peripheral_v2
+dummy : 93
+Adding branch : HLT_HIFullTrack14_L1Central_v2
+dummy : 94
+Adding branch : HLT_HIFullTrack14_L1Peripheral_v2
+dummy : 95
+Adding branch : HLT_HIFullTrack20_L1Central_v2
+dummy : 96
+Adding branch : HLT_HIFullTrack20_L1Peripheral_v2
+dummy : 97
+Adding branch : HLT_HIFullTrack25_L1Central_v2
+dummy : 98
+Adding branch : HLT_HIFullTrack25_L1Peripheral_v2
+dummy : 99
+Adding branch : HLT_HIJet55_v2
+dummy : 100
+Adding branch : HLT_HIJet65_Jet55_v2
+dummy : 101
+Adding branch : HLT_HIJet65_v2
+dummy : 102
+Adding branch : HLT_HIJet80_v2
+dummy : 103
+Adding branch : HLT_HIJet95_v2
+dummy : 104
+Adding branch : HLT_HIJetE30_NoBPTX_v2
+dummy : 105
+Adding branch : HLT_HIJetE50_NoBPTX3BX_NoHalo_v2
+dummy : 106
+Adding branch : HLT_HIMET120_v2
+dummy : 107
+Adding branch : HLT_HIMET200_v2
+dummy : 108
+Adding branch : HLT_HIMET220_v2
+dummy : 109
+Adding branch : HLT_HIPhoton10_Photon15_v2
+dummy : 110
+Adding branch : HLT_HIPhoton15_Photon20_v2
+dummy : 111
+Adding branch : HLT_HISinglePhoton15_v2
+dummy : 112
+dummy : 113
+dummy : 114
+dummy : 115
+Adding branch : HLT_HIBptxXOR_v2
+dummy : 116
+dummy : 117
+Adding branch : HLT_HICentralityVeto_v2
+dummy : 118
+Adding branch : HLT_HIL1Algo_BptxXOR_BSC_OR_v2
+dummy : 119
+Adding branch : HLT_HIMinBiasBSC_OR_v2
+dummy : 120
+Adding branch : HLT_HIMinBiasBSC_v2
+dummy : 121
+Adding branch : HLT_HIMinBiasHF_v2
+dummy : 122
+Adding branch : HLT_HIMinBiasHfOrBSC_v2
+dummy : 123
+Adding branch : HLT_HIMinBiasHf_OR_v2
+dummy : 124
+Adding branch : HLT_HIMinBiasPixel_SingleTrack_v2
+dummy : 125
+Adding branch : HLT_HIMinBiasZDCPixel_SingleTrack_v2
+dummy : 126
+Adding branch : HLT_HIMinBiasZDC_Calo_PlusOrMinus_v2
+dummy : 127
+Adding branch : HLT_HIMinBiasZDC_Calo_v2
+dummy : 128
+Adding branch : HLT_HIMinBiasZDC_PlusOrMinusPixel_SingleTrack_v2
+dummy : 129
+Adding branch : HLT_HIPhysics_v2
+dummy : 130
+Adding branch : HLT_HIRandom_v2
+dummy : 131
+dummy : 132
+dummy : 133
+Adding branch : HLT_HIUPCNeuEG2Pixel_SingleTrack_v2
+dummy : 134
+Adding branch : HLT_HIUPCNeuEG5Pixel_SingleTrack_v2
+dummy : 135
+Adding branch : HLT_HIUPCNeuHcalHfEG2Pixel_SingleTrack_v2
+dummy : 136
+Adding branch : HLT_HIUPCNeuHcalHfEG5Pixel_SingleTrack_v2
+dummy : 137
+Adding branch : HLT_HIUPCNeuHcalHfMuPixel_SingleTrack_v2
+dummy : 138
+Adding branch : HLT_HIUPCNeuMuPixel_SingleTrack_v2
+dummy : 139
+Adding branch : HLT_HIZeroBiasPixel_SingleTrack_v2
+dummy : 140
+Adding branch : HLT_HIZeroBiasXOR_v2
+dummy : 141
+Adding branch : HLT_HIZeroBias_v2
+dummy : 142
+Adding branch : HLT_HIL1DoubleMu0_HighQ_v3
+dummy : 143
+Adding branch : HLT_HIL1DoubleMuOpen_v3
+dummy : 144
+Adding branch : HLT_HIL2DoubleMu0_L1HighQL2NHitQ_v3
+dummy : 145
+Adding branch : HLT_HIL2DoubleMu0_NHitQ_v3
+dummy : 146
+Adding branch : HLT_HIL2DoubleMu0_v3
+dummy : 147
+Adding branch : HLT_HIL2DoubleMu3_v3
+dummy : 148
+Adding branch : HLT_HIL2Mu15_v3
+dummy : 149
+Adding branch : HLT_HIL2Mu3_NHitQ_v3
+dummy : 150
+Adding branch : HLT_HIL2Mu3_v3
+dummy : 151
+Adding branch : HLT_HIL2Mu7_v3
+dummy : 152
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_OS_NoCowboy_v3
+dummy : 153
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_OS_v3
+dummy : 154
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_SS_v3
+dummy : 155
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_v3
+dummy : 156
+Adding branch : HLT_HIL3DoubleMuOpen_v3
+dummy : 157
+Adding branch : HLT_HIL3Mu3_v3
+dummy : 158
+Adding branch : HLT_HIDiJet55_v3
+dummy : 159
+Adding branch : HLT_HIDoublePhoton10_v3
+dummy : 160
+Adding branch : HLT_HIDoublePhoton15_v3
+dummy : 161
+Adding branch : HLT_HIDoublePhoton20_v3
+dummy : 162
+Adding branch : HLT_HIFullTrack12_L1Central_v3
+dummy : 163
+Adding branch : HLT_HIFullTrack12_L1Peripheral_v3
+dummy : 164
+Adding branch : HLT_HIFullTrack14_L1Central_v3
+dummy : 165
+Adding branch : HLT_HIFullTrack14_L1Peripheral_v3
+dummy : 166
+Adding branch : HLT_HIFullTrack20_L1Central_v3
+dummy : 167
+Adding branch : HLT_HIFullTrack20_L1Peripheral_v3
+dummy : 168
+Adding branch : HLT_HIFullTrack25_L1Central_v3
+dummy : 169
+Adding branch : HLT_HIFullTrack25_L1Peripheral_v3
+dummy : 170
+Adding branch : HLT_HIJet55_v3
+dummy : 171
+Adding branch : HLT_HIJet65_Jet55_v3
+dummy : 172
+Adding branch : HLT_HIJet65_v3
+dummy : 173
+Adding branch : HLT_HIJet80_v3
+dummy : 174
+Adding branch : HLT_HIJet95_v3
+dummy : 175
+Adding branch : HLT_HIJetE30_NoBPTX_v3
+dummy : 176
+Adding branch : HLT_HIJetE50_NoBPTX3BX_NoHalo_v3
+dummy : 177
+Adding branch : HLT_HIMET120_v3
+dummy : 178
+Adding branch : HLT_HIMET200_v3
+dummy : 179
+Adding branch : HLT_HIMET220_v3
+dummy : 180
+Adding branch : HLT_HIPhoton10_Photon15_v3
+dummy : 181
+Adding branch : HLT_HIPhoton15_Photon20_v3
+dummy : 182
+Adding branch : HLT_HISinglePhoton15_v3
+dummy : 183
+Adding branch : HLT_HISinglePhoton20_v3
+dummy : 184
+Adding branch : HLT_HISinglePhoton30_v3
+dummy : 185
+Adding branch : HLT_HISinglePhoton40_v3
+dummy : 186
+Adding branch : HLT_HIBptxXOR_v3
+dummy : 187
+Adding branch : HLT_HICentral10_v3
+dummy : 188
+Adding branch : HLT_HICentralityVeto_v3
+dummy : 189
+Adding branch : HLT_HIL1Algo_BptxXOR_BSC_OR_v3
+dummy : 190
+Adding branch : HLT_HIMinBiasBSC_OR_v3
+dummy : 191
+Adding branch : HLT_HIMinBiasBSC_v3
+dummy : 192
+Adding branch : HLT_HIMinBiasHF_v3
+dummy : 193
+Adding branch : HLT_HIMinBiasHfOrBSC_v3
+dummy : 194
+Adding branch : HLT_HIMinBiasHf_OR_v3
+dummy : 195
+Adding branch : HLT_HIMinBiasPixel_SingleTrack_v3
+dummy : 196
+Adding branch : HLT_HIMinBiasZDCPixel_SingleTrack_v3
+dummy : 197
+Adding branch : HLT_HIMinBiasZDC_Calo_PlusOrMinus_v3
+dummy : 198
+Adding branch : HLT_HIMinBiasZDC_Calo_v3
+dummy : 199
+Adding branch : HLT_HIMinBiasZDC_PlusOrMinusPixel_SingleTrack_v3
+dummy : 200
+Adding branch : HLT_HIPhysics_v3
+dummy : 201
+Adding branch : HLT_HIRandom_v3
+dummy : 202
+Adding branch : HLT_HIUCC010_v3
+dummy : 203
+Adding branch : HLT_HIUCC015_v3
+dummy : 204
+Adding branch : HLT_HIUPCNeuEG2Pixel_SingleTrack_v3
+dummy : 205
+Adding branch : HLT_HIUPCNeuEG5Pixel_SingleTrack_v3
+dummy : 206
+Adding branch : HLT_HIUPCNeuHcalHfEG2Pixel_SingleTrack_v3
+dummy : 207
+Adding branch : HLT_HIUPCNeuHcalHfEG5Pixel_SingleTrack_v3
+dummy : 208
+Adding branch : HLT_HIUPCNeuHcalHfMuPixel_SingleTrack_v3
+dummy : 209
+Adding branch : HLT_HIUPCNeuMuPixel_SingleTrack_v3
+dummy : 210
+Adding branch : HLT_HIZeroBiasPixel_SingleTrack_v3
+dummy : 211
+Adding branch : HLT_HIZeroBiasXOR_v3
+dummy : 212
+Adding branch : HLT_HIZeroBias_v3
+dummy : 213
+Adding branch : HLT_HIL1DoubleMu0_HighQ_v4
+dummy : 214
+Adding branch : HLT_HIL1DoubleMuOpen_v4
+dummy : 215
+Adding branch : HLT_HIL2DoubleMu0_L1HighQL2NHitQ_v4
+dummy : 216
+Adding branch : HLT_HIL2DoubleMu0_NHitQ_v4
+dummy : 217
+Adding branch : HLT_HIL2DoubleMu0_v4
+dummy : 218
+Adding branch : HLT_HIL2DoubleMu3_v4
+dummy : 219
+Adding branch : HLT_HIL2Mu15_v4
+dummy : 220
+Adding branch : HLT_HIL2Mu3_NHitQ_v4
+dummy : 221
+Adding branch : HLT_HIL2Mu3_v4
+dummy : 222
+Adding branch : HLT_HIL2Mu7_v4
+dummy : 223
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_OS_NoCowboy_v4
+dummy : 224
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_OS_v4
+dummy : 225
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_SS_v4
+dummy : 226
+Adding branch : HLT_HIL3DoubleMuOpen_Mgt2_v4
+dummy : 227
+Adding branch : HLT_HIL3DoubleMuOpen_v4
+dummy : 228
+Adding branch : HLT_HIL3Mu3_v4
+dummy : 229
+Adding branch : HLT_HIDiJet55_v4
+dummy : 230
+Adding branch : HLT_HIDoublePhoton10_v4
+dummy : 231
+Adding branch : HLT_HIDoublePhoton15_v4
+dummy : 232
+Adding branch : HLT_HIDoublePhoton20_v4
+dummy : 233
+Adding branch : HLT_HIFullTrack12_L1Central_v4
+dummy : 234
+Adding branch : HLT_HIFullTrack12_L1Peripheral_v4
+dummy : 235
+Adding branch : HLT_HIFullTrack14_L1Central_v4
+dummy : 236
+Adding branch : HLT_HIFullTrack14_L1Peripheral_v4
+dummy : 237
+Adding branch : HLT_HIFullTrack20_L1Central_v4
+dummy : 238
+Adding branch : HLT_HIFullTrack20_L1Peripheral_v4
+dummy : 239
+Adding branch : HLT_HIFullTrack25_L1Central_v4
+dummy : 240
+Adding branch : HLT_HIFullTrack25_L1Peripheral_v4
+dummy : 241
+Adding branch : HLT_HIJet55_v4
+dummy : 242
+Adding branch : HLT_HIJet65_Jet55_v4
+dummy : 243
+Adding branch : HLT_HIJet65_v4
+dummy : 244
+Adding branch : HLT_HIJet80_v4
+dummy : 245
+Adding branch : HLT_HIJet95_v4
+dummy : 246
+Adding branch : HLT_HIJetE30_NoBPTX_v4
+dummy : 247
+Adding branch : HLT_HIJetE50_NoBPTX3BX_NoHalo_v4
+dummy : 248
+Adding branch : HLT_HIMET120_v4
+dummy : 249
+Adding branch : HLT_HIMET200_v4
+dummy : 250
+Adding branch : HLT_HIMET220_v4
+dummy : 251
+Adding branch : HLT_HIPhoton10_Photon15_v4
+dummy : 252
+Adding branch : HLT_HIPhoton15_Photon20_v4
+dummy : 253
+Adding branch : HLT_HISinglePhoton15_v4
+dummy : 254
+Adding branch : HLT_HISinglePhoton20_v4
+dummy : 255
+Adding branch : HLT_HISinglePhoton30_v4
+dummy : 256
+Adding branch : HLT_HISinglePhoton40_v4
+dummy : 257
+Adding branch : HLT_HIBptxXOR_v4
+dummy : 258
+Adding branch : HLT_HICentral10_v4
+dummy : 259
+Adding branch : HLT_HICentralityVeto_v4
+dummy : 260
+Adding branch : HLT_HIL1Algo_BptxXOR_BSC_OR_v4
+dummy : 261
+Adding branch : HLT_HIMinBiasBSC_OR_v4
+dummy : 262
+Adding branch : HLT_HIMinBiasBSC_v4
+dummy : 263
+Adding branch : HLT_HIMinBiasHF_v4
+dummy : 264
+Adding branch : HLT_HIMinBiasHfOrBSC_v4
+dummy : 265
+Adding branch : HLT_HIMinBiasHf_OR_v4
+dummy : 266
+Adding branch : HLT_HIMinBiasPixel_SingleTrack_v4
+dummy : 267
+Adding branch : HLT_HIMinBiasZDCPixel_SingleTrack_v4
+dummy : 268
+Adding branch : HLT_HIMinBiasZDC_Calo_PlusOrMinus_v4
+dummy : 269
+Adding branch : HLT_HIMinBiasZDC_Calo_v4
+dummy : 270
+Adding branch : HLT_HIMinBiasZDC_PlusOrMinusPixel_SingleTrack_v4
+dummy : 271
+Adding branch : HLT_HIPhysics_v4
+dummy : 272
+Adding branch : HLT_HIRandom_v4
+dummy : 273
+Adding branch : HLT_HIUCC010_v4
+dummy : 274
+Adding branch : HLT_HIUCC015_v4
+dummy : 275
+Adding branch : HLT_HIUPCNeuEG2Pixel_SingleTrack_v4
+dummy : 276
+Adding branch : HLT_HIUPCNeuEG5Pixel_SingleTrack_v4
+dummy : 277
+Adding branch : HLT_HIUPCNeuHcalHfEG2Pixel_SingleTrack_v4
+dummy : 278
+Adding branch : HLT_HIUPCNeuHcalHfEG5Pixel_SingleTrack_v4
+dummy : 279
+Adding branch : HLT_HIUPCNeuHcalHfMuPixel_SingleTrack_v4
+dummy : 280
+Adding branch : HLT_HIUPCNeuMuPixel_SingleTrack_v4
+dummy : 281
+Adding branch : HLT_HIZeroBiasPixel_SingleTrack_v4
+dummy : 282
+Adding branch : HLT_HIZeroBiasXOR_v4
+dummy : 283
+Adding branch : HLT_HIZeroBias_v4
+==>HFTree: analyze() in event #0  run: 181913 event: 333519
+UID        PID  PPID  C    SZ   RSS PSR STIME TTY      STAT   TIME CMD
+jiansun   3729 20999 55 263476 619628 0 13:10 pts/21   S      0:38 cmsRun runForest_44X_reduced_d0dstar_work.py
+event analysis========
+Begin processing the 2nd record. Run 181913, Event 332639, LumiSection 10 at 28-Mar-2014 13:11:29.700 CDT
+event analysis========
+Begin processing the 3rd record. Run 181913, Event 334967, LumiSection 10 at 28-Mar-2014 13:11:31.135 CDT
+event analysis========
+Begin processing the 4th record. Run 181913, Event 335047, LumiSection 10 at 28-Mar-2014 13:11:31.532 CDT
+event analysis========
+Begin processing the 5th record. Run 181913, Event 334015, LumiSection 10 at 28-Mar-2014 13:11:32.055 CDT
+event analysis========
+Begin processing the 6th record. Run 181913, Event 334375, LumiSection 10 at 28-Mar-2014 13:11:36.420 CDT
+event analysis========
+Begin processing the 7th record. Run 181913, Event 333511, LumiSection 10 at 28-Mar-2014 13:11:39.056 CDT
+event analysis========
+Begin processing the 8th record. Run 181913, Event 341263, LumiSection 10 at 28-Mar-2014 13:11:42.587 CDT
+event analysis========
+Begin processing the 9th record. Run 181913, Event 334703, LumiSection 10 at 28-Mar-2014 13:11:42.677 CDT
+event analysis========
+Begin processing the 10th record. Run 181913, Event 332551, LumiSection 10 at 28-Mar-2014 13:11:50.669 CDT
+event analysis========
+Begin processing the 11th record. Run 181913, Event 334463, LumiSection 10 at 28-Mar-2014 13:11:57.054 CDT
+event analysis========
+Begin processing the 12th record. Run 181913, Event 335295, LumiSection 10 at 28-Mar-2014 13:12:01.251 CDT
+event analysis========
+Begin processing the 13th record. Run 181913, Event 340759, LumiSection 10 at 28-Mar-2014 13:12:12.165 CDT
+event analysis========
+Begin processing the 14th record. Run 181913, Event 342087, LumiSection 10 at 28-Mar-2014 13:12:14.358 CDT
+event analysis========
+Begin processing the 15th record. Run 181913, Event 337399, LumiSection 10 at 28-Mar-2014 13:12:16.903 CDT
+event analysis========
+Begin processing the 16th record. Run 181913, Event 335807, LumiSection 10 at 28-Mar-2014 13:12:25.466 CDT
+event analysis========
+Begin processing the 17th record. Run 181913, Event 338079, LumiSection 10 at 28-Mar-2014 13:12:32.863 CDT
+event analysis========
+Begin processing the 18th record. Run 181913, Event 347247, LumiSection 10 at 28-Mar-2014 13:12:43.676 CDT
+event analysis========
+Begin processing the 19th record. Run 181913, Event 348191, LumiSection 10 at 28-Mar-2014 13:12:45.076 CDT
+event analysis========
+Begin processing the 20th record. Run 181913, Event 350111, LumiSection 10 at 28-Mar-2014 13:12:46.544 CDT
+event analysis========
+Begin processing the 21st record. Run 181913, Event 336679, LumiSection 10 at 28-Mar-2014 13:12:47.049 CDT
+event analysis========
+Begin processing the 22nd record. Run 181913, Event 344063, LumiSection 10 at 28-Mar-2014 13:12:59.862 CDT
+event analysis========
+Begin processing the 23rd record. Run 181913, Event 340847, LumiSection 10 at 28-Mar-2014 13:13:03.211 CDT
+event analysis========
+Begin processing the 24th record. Run 181913, Event 352599, LumiSection 10 at 28-Mar-2014 13:13:14.971 CDT
+event analysis========
+Begin processing the 25th record. Run 181913, Event 350935, LumiSection 10 at 28-Mar-2014 13:13:15.027 CDT
+event analysis========
+Begin processing the 26th record. Run 181913, Event 339255, LumiSection 10 at 28-Mar-2014 13:13:17.413 CDT
+event analysis========
+Begin processing the 27th record. Run 181913, Event 350479, LumiSection 10 at 28-Mar-2014 13:13:31.643 CDT
+event analysis========
+Begin processing the 28th record. Run 181913, Event 343143, LumiSection 10 at 28-Mar-2014 13:13:35.108 CDT
+event analysis========
+Begin processing the 29th record. Run 181913, Event 337983, LumiSection 10 at 28-Mar-2014 13:13:48.122 CDT
+event analysis========
+Begin processing the 30th record. Run 181913, Event 357599, LumiSection 10 at 28-Mar-2014 13:13:58.541 CDT
+event analysis========
+Begin processing the 31st record. Run 181913, Event 346423, LumiSection 10 at 28-Mar-2014 13:13:58.664 CDT
+event analysis========
+Begin processing the 32nd record. Run 181913, Event 333095, LumiSection 10 at 28-Mar-2014 13:14:14.853 CDT
+event analysis========
+Begin processing the 33rd record. Run 181913, Event 354711, LumiSection 10 at 28-Mar-2014 13:14:34.149 CDT
+event analysis========
+Begin processing the 34th record. Run 181913, Event 344783, LumiSection 10 at 28-Mar-2014 13:14:38.387 CDT
+event analysis========
+Begin processing the 35th record. Run 181913, Event 355463, LumiSection 10 at 28-Mar-2014 13:14:55.569 CDT
+event analysis========
+Begin processing the 36th record. Run 181913, Event 353975, LumiSection 10 at 28-Mar-2014 13:14:58.974 CDT
+event analysis========
+Begin processing the 37th record. Run 181913, Event 359631, LumiSection 10 at 28-Mar-2014 13:15:03.743 CDT
+event analysis========
+Begin processing the 38th record. Run 181913, Event 353343, LumiSection 10 at 28-Mar-2014 13:15:03.772 CDT
+event analysis========
+Begin processing the 39th record. Run 181913, Event 356295, LumiSection 10 at 28-Mar-2014 13:15:09.611 CDT
+event analysis========
+Begin processing the 40th record. Run 181913, Event 354191, LumiSection 10 at 28-Mar-2014 13:15:13.471 CDT
+event analysis========
+Begin processing the 41st record. Run 181913, Event 363191, LumiSection 10 at 28-Mar-2014 13:15:20.170 CDT
+event analysis========
+Begin processing the 42nd record. Run 181913, Event 353983, LumiSection 10 at 28-Mar-2014 13:15:20.315 CDT
+event analysis========
+Begin processing the 43rd record. Run 181913, Event 364839, LumiSection 10 at 28-Mar-2014 13:15:29.843 CDT
+event analysis========
+Begin processing the 44th record. Run 181913, Event 355527, LumiSection 10 at 28-Mar-2014 13:15:29.871 CDT
+event analysis========
+Begin processing the 45th record. Run 181913, Event 354967, LumiSection 10 at 28-Mar-2014 13:15:37.539 CDT
+event analysis========
+Begin processing the 46th record. Run 181913, Event 356903, LumiSection 10 at 28-Mar-2014 13:15:45.212 CDT
+event analysis========
+Begin processing the 47th record. Run 181913, Event 362783, LumiSection 10 at 28-Mar-2014 13:15:52.418 CDT
+event analysis========
+Begin processing the 48th record. Run 181913, Event 360551, LumiSection 10 at 28-Mar-2014 13:15:53.810 CDT
+event analysis========
+Begin processing the 49th record. Run 181913, Event 358431, LumiSection 10 at 28-Mar-2014 13:15:57.213 CDT
+event analysis========
+Begin processing the 50th record. Run 181913, Event 359423, LumiSection 10 at 28-Mar-2014 13:16:00.705 CDT
+event analysis========
+Begin processing the 51st record. Run 181913, Event 355655, LumiSection 10 at 28-Mar-2014 13:16:07.129 CDT
+event analysis========
+Begin processing the 52nd record. Run 181913, Event 350295, LumiSection 10 at 28-Mar-2014 13:16:14.292 CDT
+event analysis========
+Begin processing the 53rd record. Run 181913, Event 361735, LumiSection 10 at 28-Mar-2014 13:16:26.704 CDT
+event analysis========
+Begin processing the 54th record. Run 181913, Event 366967, LumiSection 10 at 28-Mar-2014 13:16:32.071 CDT
+event analysis========
+Begin processing the 55th record. Run 181913, Event 363831, LumiSection 10 at 28-Mar-2014 13:16:37.620 CDT
+event analysis========
+Begin processing the 56th record. Run 181913, Event 369911, LumiSection 10 at 28-Mar-2014 13:16:45.681 CDT
+event analysis========
+Begin processing the 57th record. Run 181913, Event 369519, LumiSection 10 at 28-Mar-2014 13:16:46.158 CDT
+event analysis========
+Begin processing the 58th record. Run 181913, Event 357255, LumiSection 10 at 28-Mar-2014 13:16:47.488 CDT
+event analysis========
+Begin processing the 59th record. Run 181913, Event 361535, LumiSection 10 at 28-Mar-2014 13:17:08.187 CDT
+event analysis========
+Begin processing the 60th record. Run 181913, Event 360279, LumiSection 10 at 28-Mar-2014 13:17:16.366 CDT
+event analysis========
+Begin processing the 61st record. Run 181913, Event 369839, LumiSection 10 at 28-Mar-2014 13:17:23.351 CDT
+event analysis========
+Begin processing the 62nd record. Run 181913, Event 361983, LumiSection 10 at 28-Mar-2014 13:17:25.651 CDT
+event analysis========
+Begin processing the 63rd record. Run 181913, Event 371359, LumiSection 10 at 28-Mar-2014 13:17:38.993 CDT
+event analysis========
+Begin processing the 64th record. Run 181913, Event 359103, LumiSection 10 at 28-Mar-2014 13:17:41.062 CDT
+event analysis========
+Begin processing the 65th record. Run 181913, Event 366103, LumiSection 10 at 28-Mar-2014 13:17:58.417 CDT
+event analysis========
+Begin processing the 66th record. Run 181913, Event 355159, LumiSection 10 at 28-Mar-2014 13:18:12.021 CDT
+event analysis========
+Begin processing the 67th record. Run 181913, Event 370935, LumiSection 10 at 28-Mar-2014 13:18:39.621 CDT
+event analysis========
+Begin processing the 68th record. Run 181913, Event 370919, LumiSection 10 at 28-Mar-2014 13:18:45.790 CDT
+event analysis========
+Begin processing the 69th record. Run 181913, Event 365127, LumiSection 10 at 28-Mar-2014 13:18:50.535 CDT
+event analysis========
+Begin processing the 70th record. Run 181913, Event 368647, LumiSection 10 at 28-Mar-2014 13:19:00.408 CDT
+event analysis========
+Begin processing the 71st record. Run 181913, Event 333987, LumiSection 10 at 28-Mar-2014 13:19:09.029 CDT
+event analysis========
+Begin processing the 72nd record. Run 181913, Event 339027, LumiSection 10 at 28-Mar-2014 13:19:11.134 CDT
+event analysis========
+Begin processing the 73rd record. Run 181913, Event 340987, LumiSection 10 at 28-Mar-2014 13:19:11.849 CDT
+event analysis========
+Begin processing the 74th record. Run 181913, Event 339491, LumiSection 10 at 28-Mar-2014 13:19:12.284 CDT
+event analysis========
+Begin processing the 75th record. Run 181913, Event 338435, LumiSection 10 at 28-Mar-2014 13:19:15.161 CDT
+event analysis========
+Begin processing the 76th record. Run 181913, Event 340123, LumiSection 10 at 28-Mar-2014 13:19:19.669 CDT
+event analysis========
+Begin processing the 77th record. Run 181913, Event 342179, LumiSection 10 at 28-Mar-2014 13:19:21.570 CDT
+event analysis========
+Begin processing the 78th record. Run 181913, Event 336763, LumiSection 10 at 28-Mar-2014 13:19:21.762 CDT
+event analysis========
+Begin processing the 79th record. Run 181913, Event 335795, LumiSection 10 at 28-Mar-2014 13:19:30.679 CDT
+event analysis========
+Begin processing the 80th record. Run 181913, Event 339195, LumiSection 10 at 28-Mar-2014 13:19:38.831 CDT
+event analysis========
+Begin processing the 81st record. Run 181913, Event 335443, LumiSection 10 at 28-Mar-2014 13:19:42.254 CDT
+event analysis========
+Begin processing the 82nd record. Run 181913, Event 339435, LumiSection 10 at 28-Mar-2014 13:19:48.875 CDT
+event analysis========
+Begin processing the 83rd record. Run 181913, Event 340779, LumiSection 10 at 28-Mar-2014 13:19:53.176 CDT
+event analysis========
+Begin processing the 84th record. Run 181913, Event 343523, LumiSection 10 at 28-Mar-2014 13:19:59.780 CDT
+event analysis========
+Begin processing the 85th record. Run 181913, Event 348467, LumiSection 10 at 28-Mar-2014 13:20:05.322 CDT
+event analysis========
+Begin processing the 86th record. Run 181913, Event 339203, LumiSection 10 at 28-Mar-2014 13:20:05.472 CDT
+event analysis========
+Begin processing the 87th record. Run 181913, Event 336043, LumiSection 10 at 28-Mar-2014 13:20:10.696 CDT
+event analysis========
+Begin processing the 88th record. Run 181913, Event 343123, LumiSection 10 at 28-Mar-2014 13:20:18.776 CDT
+event analysis========
+Begin processing the 89th record. Run 181913, Event 348115, LumiSection 10 at 28-Mar-2014 13:20:24.404 CDT
+event analysis========
+Begin processing the 90th record. Run 181913, Event 344739, LumiSection 10 at 28-Mar-2014 13:20:26.021 CDT
+event analysis========
+Begin processing the 91st record. Run 181913, Event 339579, LumiSection 10 at 28-Mar-2014 13:20:36.384 CDT
+event analysis========
+Begin processing the 92nd record. Run 181913, Event 347675, LumiSection 10 at 28-Mar-2014 13:20:48.226 CDT
+event analysis========
+Begin processing the 93rd record. Run 181913, Event 341451, LumiSection 10 at 28-Mar-2014 13:20:53.595 CDT
+event analysis========
+Begin processing the 94th record. Run 181913, Event 346171, LumiSection 10 at 28-Mar-2014 13:21:11.852 CDT
+event analysis========
+Begin processing the 95th record. Run 181913, Event 349235, LumiSection 10 at 28-Mar-2014 13:21:18.400 CDT
+event analysis========
+Begin processing the 96th record. Run 181913, Event 351971, LumiSection 10 at 28-Mar-2014 13:21:24.225 CDT
+event analysis========
+Begin processing the 97th record. Run 181913, Event 351003, LumiSection 10 at 28-Mar-2014 13:21:29.697 CDT
+event analysis========
+Begin processing the 98th record. Run 181913, Event 355195, LumiSection 10 at 28-Mar-2014 13:21:35.481 CDT
+event analysis========
+Begin processing the 99th record. Run 181913, Event 347915, LumiSection 10 at 28-Mar-2014 13:21:36.379 CDT
+event analysis========
+Begin processing the 100th record. Run 181913, Event 359563, LumiSection 10 at 28-Mar-2014 13:21:46.349 CDT
+event analysis========
+Begin processing the 101st record. Run 181913, Event 350147, LumiSection 10 at 28-Mar-2014 13:21:46.375 CDT
+event analysis========
+Begin processing the 102nd record. Run 181913, Event 348171, LumiSection 10 at 28-Mar-2014 13:21:54.804 CDT
+event analysis========
+Begin processing the 103rd record. Run 181913, Event 348267, LumiSection 10 at 28-Mar-2014 13:22:04.164 CDT
+event analysis========
+Begin processing the 104th record. Run 181913, Event 354955, LumiSection 10 at 28-Mar-2014 13:22:16.991 CDT
+event analysis========
+Begin processing the 105th record. Run 181913, Event 350163, LumiSection 10 at 28-Mar-2014 13:22:25.961 CDT
+event analysis========
+Begin processing the 106th record. Run 181913, Event 359611, LumiSection 10 at 28-Mar-2014 13:22:41.204 CDT
+event analysis========
+Begin processing the 107th record. Run 181913, Event 357827, LumiSection 10 at 28-Mar-2014 13:22:44.257 CDT
+event analysis========
+Begin processing the 108th record. Run 181913, Event 356123, LumiSection 10 at 28-Mar-2014 13:22:49.440 CDT
+event analysis========
+Begin processing the 109th record. Run 181913, Event 363275, LumiSection 10 at 28-Mar-2014 13:22:58.213 CDT
+event analysis========
+Begin processing the 110th record. Run 181913, Event 355555, LumiSection 10 at 28-Mar-2014 13:22:58.312 CDT
+event analysis========
+Begin processing the 111th record. Run 181913, Event 361499, LumiSection 10 at 28-Mar-2014 13:23:07.397 CDT
+event analysis========
+Begin processing the 112th record. Run 181913, Event 362843, LumiSection 10 at 28-Mar-2014 13:23:12.753 CDT
+event analysis========
+Begin processing the 113th record. Run 181913, Event 348699, LumiSection 10 at 28-Mar-2014 13:23:16.773 CDT
+event analysis========
+Begin processing the 114th record. Run 181913, Event 364611, LumiSection 10 at 28-Mar-2014 13:23:29.739 CDT
+event analysis========
+Begin processing the 115th record. Run 181913, Event 362067, LumiSection 10 at 28-Mar-2014 13:23:30.388 CDT
+event analysis========
+Begin processing the 116th record. Run 181913, Event 365611, LumiSection 10 at 28-Mar-2014 13:23:41.114 CDT
+event analysis========
+Begin processing the 117th record. Run 181913, Event 354843, LumiSection 10 at 28-Mar-2014 13:23:42.731 CDT
+event analysis========
+Begin processing the 118th record. Run 181913, Event 367275, LumiSection 10 at 28-Mar-2014 13:24:00.120 CDT
+event analysis========
+Begin processing the 119th record. Run 181913, Event 364379, LumiSection 10 at 28-Mar-2014 13:24:00.817 CDT
+event analysis========
+Begin processing the 120th record. Run 181913, Event 362123, LumiSection 10 at 28-Mar-2014 13:24:02.672 CDT
+event analysis========
+Begin processing the 121st record. Run 181913, Event 355723, LumiSection 10 at 28-Mar-2014 13:24:05.426 CDT
+event analysis========
+Begin processing the 122nd record. Run 181913, Event 343035, LumiSection 10 at 28-Mar-2014 13:24:17.550 CDT
+event analysis========
+Begin processing the 123rd record. Run 181913, Event 364963, LumiSection 10 at 28-Mar-2014 13:24:30.192 CDT
+event analysis========
+Begin processing the 124th record. Run 181913, Event 365947, LumiSection 10 at 28-Mar-2014 13:24:35.028 CDT
+event analysis========
+Begin processing the 125th record. Run 181913, Event 365283, LumiSection 10 at 28-Mar-2014 13:24:37.858 CDT
+event analysis========
+Begin processing the 126th record. Run 181913, Event 365635, LumiSection 10 at 28-Mar-2014 13:24:41.432 CDT
+event analysis========
+Begin processing the 127th record. Run 181913, Event 357131, LumiSection 10 at 28-Mar-2014 13:24:46.219 CDT
+event analysis========
+Begin processing the 128th record. Run 181913, Event 361443, LumiSection 10 at 28-Mar-2014 13:24:59.268 CDT
+event analysis========
+Begin processing the 129th record. Run 181913, Event 359195, LumiSection 10 at 28-Mar-2014 13:25:10.804 CDT
+event analysis========
+Begin processing the 130th record. Run 181913, Event 363539, LumiSection 10 at 28-Mar-2014 13:25:31.178 CDT
+event analysis========
+Begin processing the 131st record. Run 181913, Event 369003, LumiSection 10 at 28-Mar-2014 13:25:39.771 CDT
+event analysis========
+Begin processing the 132nd record. Run 181913, Event 367051, LumiSection 10 at 28-Mar-2014 13:25:47.036 CDT
+event analysis========
+Begin processing the 133rd record. Run 181913, Event 368011, LumiSection 10 at 28-Mar-2014 13:25:57.016 CDT
+event analysis========
+Begin processing the 134th record. Run 181913, Event 368915, LumiSection 10 at 28-Mar-2014 13:26:05.976 CDT
+event analysis========
+Begin processing the 135th record. Run 181913, Event 370723, LumiSection 10 at 28-Mar-2014 13:26:17.456 CDT
+event analysis========
+Begin processing the 136th record. Run 181913, Event 367355, LumiSection 10 at 28-Mar-2014 13:26:21.393 CDT
+event analysis========
+Begin processing the 137th record. Run 181913, Event 367163, LumiSection 10 at 28-Mar-2014 13:26:29.207 CDT
+event analysis========
+Begin processing the 138th record. Run 181913, Event 364491, LumiSection 10 at 28-Mar-2014 13:26:37.191 CDT
+event analysis========
+Begin processing the 139th record. Run 181913, Event 368235, LumiSection 10 at 28-Mar-2014 13:26:49.098 CDT
+event analysis========
+Begin processing the 140th record. Run 181913, Event 332443, LumiSection 10 at 28-Mar-2014 13:27:08.511 CDT
+event analysis========
+Begin processing the 141st record. Run 181913, Event 332971, LumiSection 10 at 28-Mar-2014 13:27:08.641 CDT
+event analysis========
+Begin processing the 142nd record. Run 181913, Event 332523, LumiSection 10 at 28-Mar-2014 13:27:09.379 CDT
+event analysis========
+Begin processing the 143rd record. Run 181913, Event 335323, LumiSection 10 at 28-Mar-2014 13:27:10.194 CDT
+event analysis========
+Begin processing the 144th record. Run 181913, Event 335499, LumiSection 10 at 28-Mar-2014 13:27:10.445 CDT
+event analysis========
+Begin processing the 145th record. Run 181913, Event 332547, LumiSection 10 at 28-Mar-2014 13:27:11.602 CDT
+event analysis========
+Begin processing the 146th record. Run 181913, Event 338187, LumiSection 10 at 28-Mar-2014 13:27:16.794 CDT
+event analysis========
+Begin processing the 147th record. Run 181913, Event 336883, LumiSection 10 at 28-Mar-2014 13:27:17.176 CDT
+event analysis========
+Begin processing the 148th record. Run 181913, Event 336723, LumiSection 10 at 28-Mar-2014 13:27:21.333 CDT
+event analysis========
+Begin processing the 149th record. Run 181913, Event 341643, LumiSection 10 at 28-Mar-2014 13:27:22.212 CDT
+event analysis========
+Begin processing the 150th record. Run 181913, Event 338235, LumiSection 10 at 28-Mar-2014 13:27:22.237 CDT
+event analysis========
+Begin processing the 151st record. Run 181913, Event 333619, LumiSection 10 at 28-Mar-2014 13:27:26.116 CDT
+event analysis========
+Begin processing the 152nd record. Run 181913, Event 337763, LumiSection 10 at 28-Mar-2014 13:27:30.985 CDT
+event analysis========
+Begin processing the 153rd record. Run 181913, Event 334891, LumiSection 10 at 28-Mar-2014 13:27:33.336 CDT
+event analysis========
+Begin processing the 154th record. Run 181913, Event 344347, LumiSection 10 at 28-Mar-2014 13:27:41.673 CDT
+event analysis========
+Begin processing the 155th record. Run 181913, Event 334291, LumiSection 10 at 28-Mar-2014 13:27:41.698 CDT
+event analysis========
+Begin processing the 156th record. Run 181913, Event 341755, LumiSection 10 at 28-Mar-2014 13:27:47.739 CDT
+event analysis========
+Begin processing the 157th record. Run 181913, Event 336587, LumiSection 10 at 28-Mar-2014 13:27:49.817 CDT
+event analysis========
+Begin processing the 158th record. Run 181913, Event 333747, LumiSection 10 at 28-Mar-2014 13:27:57.005 CDT
+event analysis========
+Begin processing the 159th record. Run 181913, Event 344083, LumiSection 10 at 28-Mar-2014 13:28:12.335 CDT
+event analysis========
+Begin processing the 160th record. Run 181913, Event 343771, LumiSection 10 at 28-Mar-2014 13:28:15.118 CDT
+event analysis========
+Begin processing the 161st record. Run 181913, Event 344611, LumiSection 10 at 28-Mar-2014 13:28:19.370 CDT
+event analysis========
+Begin processing the 162nd record. Run 181913, Event 344755, LumiSection 10 at 28-Mar-2014 13:28:21.966 CDT
+event analysis========
+Begin processing the 163rd record. Run 181913, Event 340691, LumiSection 10 at 28-Mar-2014 13:28:26.493 CDT
+event analysis========
+Begin processing the 164th record. Run 181913, Event 349027, LumiSection 10 at 28-Mar-2014 13:28:35.123 CDT
+event analysis========
+Begin processing the 165th record. Run 181913, Event 346067, LumiSection 10 at 28-Mar-2014 13:28:36.620 CDT
+event analysis========
+Begin processing the 166th record. Run 181913, Event 346931, LumiSection 10 at 28-Mar-2014 13:28:43.272 CDT
+event analysis========
+Begin processing the 167th record. Run 181913, Event 343027, LumiSection 10 at 28-Mar-2014 13:28:48.639 CDT
+event analysis========
+Begin processing the 168th record. Run 181913, Event 339171, LumiSection 10 at 28-Mar-2014 13:28:53.284 CDT
+event analysis========
+Begin processing the 169th record. Run 181913, Event 337683, LumiSection 10 at 28-Mar-2014 13:29:06.787 CDT
+event analysis========
+Begin processing the 170th record. Run 181913, Event 348499, LumiSection 10 at 28-Mar-2014 13:29:21.244 CDT
+event analysis========
+Begin processing the 171st record. Run 181913, Event 352107, LumiSection 10 at 28-Mar-2014 13:29:31.024 CDT
+event analysis========
+Begin processing the 172nd record. Run 181913, Event 351395, LumiSection 10 at 28-Mar-2014 13:29:34.765 CDT
+event analysis========
+Begin processing the 173rd record. Run 181913, Event 336163, LumiSection 10 at 28-Mar-2014 13:29:38.213 CDT
+event analysis========
+Begin processing the 174th record. Run 181913, Event 352123, LumiSection 10 at 28-Mar-2014 13:29:54.128 CDT
+event analysis========
+Begin processing the 175th record. Run 181913, Event 356611, LumiSection 10 at 28-Mar-2014 13:29:59.280 CDT
+event analysis========
+Begin processing the 176th record. Run 181913, Event 357523, LumiSection 10 at 28-Mar-2014 13:29:59.687 CDT
+event analysis========
+Begin processing the 177th record. Run 181913, Event 352987, LumiSection 10 at 28-Mar-2014 13:30:01.248 CDT
+event analysis========
+Begin processing the 178th record. Run 181913, Event 355651, LumiSection 10 at 28-Mar-2014 13:30:03.887 CDT
+event analysis========
+Begin processing the 179th record. Run 181913, Event 354699, LumiSection 10 at 28-Mar-2014 13:30:08.430 CDT
+event analysis========
+Begin processing the 180th record. Run 181913, Event 342339, LumiSection 10 at 28-Mar-2014 13:30:11.177 CDT
+event analysis========
+Begin processing the 181st record. Run 181913, Event 359547, LumiSection 10 at 28-Mar-2014 13:30:29.457 CDT
+event analysis========
+Begin processing the 182nd record. Run 181913, Event 349755, LumiSection 10 at 28-Mar-2014 13:30:30.894 CDT
+event analysis========
+Begin processing the 183rd record. Run 181913, Event 355851, LumiSection 10 at 28-Mar-2014 13:30:34.899 CDT
+event analysis========
+Begin processing the 184th record. Run 181913, Event 358187, LumiSection 10 at 28-Mar-2014 13:30:46.019 CDT
+event analysis========
+Begin processing the 185th record. Run 181913, Event 359539, LumiSection 10 at 28-Mar-2014 13:30:48.958 CDT
+event analysis========
+Begin processing the 186th record. Run 181913, Event 348339, LumiSection 10 at 28-Mar-2014 13:30:50.398 CDT
+event analysis========
+Begin processing the 187th record. Run 181913, Event 348275, LumiSection 10 at 28-Mar-2014 13:31:02.960 CDT
+event analysis========
+Begin processing the 188th record. Run 181913, Event 362163, LumiSection 10 at 28-Mar-2014 13:31:11.175 CDT
+event analysis========
+Begin processing the 189th record. Run 181913, Event 362779, LumiSection 10 at 28-Mar-2014 13:31:13.357 CDT
+event analysis========
+Begin processing the 190th record. Run 181913, Event 353371, LumiSection 10 at 28-Mar-2014 13:31:13.747 CDT
+event analysis========
+Begin processing the 191st record. Run 181913, Event 347819, LumiSection 10 at 28-Mar-2014 13:31:20.318 CDT
+event analysis========
+Begin processing the 192nd record. Run 181913, Event 353139, LumiSection 10 at 28-Mar-2014 13:31:31.359 CDT
+event analysis========
+Begin processing the 193rd record. Run 181913, Event 347907, LumiSection 10 at 28-Mar-2014 13:31:45.667 CDT
+event analysis========
+Begin processing the 194th record. Run 181913, Event 350371, LumiSection 10 at 28-Mar-2014 13:31:59.736 CDT
+event analysis========
+Begin processing the 195th record. Run 181913, Event 365315, LumiSection 10 at 28-Mar-2014 13:32:18.628 CDT
+event analysis========
+Begin processing the 196th record. Run 181913, Event 355155, LumiSection 10 at 28-Mar-2014 13:32:19.212 CDT
+event analysis========
+Begin processing the 197th record. Run 181913, Event 353667, LumiSection 10 at 28-Mar-2014 13:32:30.944 CDT
+event analysis========
+Begin processing the 198th record. Run 181913, Event 360275, LumiSection 10 at 28-Mar-2014 13:32:40.846 CDT
+event analysis========
+Begin processing the 199th record. Run 181913, Event 353275, LumiSection 10 at 28-Mar-2014 13:32:46.153 CDT
+event analysis========
+Begin processing the 200th record. Run 181913, Event 357435, LumiSection 10 at 28-Mar-2014 13:32:56.017 CDT
+event analysis========
+Begin processing the 201st record. Run 181913, Event 363411, LumiSection 10 at 28-Mar-2014 13:33:03.695 CDT
+event analysis========
+Begin processing the 202nd record. Run 181913, Event 360331, LumiSection 10 at 28-Mar-2014 13:33:07.178 CDT
+event analysis========
+Begin processing the 203rd record. Run 181913, Event 369555, LumiSection 10 at 28-Mar-2014 13:33:18.098 CDT
+event analysis========
+Begin processing the 204th record. Run 181913, Event 368515, LumiSection 10 at 28-Mar-2014 13:33:18.508 CDT
+event analysis========
+Begin processing the 205th record. Run 181913, Event 361195, LumiSection 10 at 28-Mar-2014 13:33:19.441 CDT
+event analysis========
+Begin processing the 206th record. Run 181913, Event 367675, LumiSection 10 at 28-Mar-2014 13:33:27.688 CDT
+event analysis========
+Begin processing the 207th record. Run 181913, Event 367227, LumiSection 10 at 28-Mar-2014 13:33:32.989 CDT
+event analysis========
+Begin processing the 208th record. Run 181913, Event 369979, LumiSection 10 at 28-Mar-2014 13:33:42.033 CDT
+event analysis========
+Begin processing the 209th record. Run 181913, Event 368699, LumiSection 10 at 28-Mar-2014 13:33:44.237 CDT
+event analysis========
+Begin processing the 210th record. Run 181913, Event 370651, LumiSection 10 at 28-Mar-2014 13:33:46.694 CDT
+event analysis========
+Begin processing the 211th record. Run 181913, Event 363499, LumiSection 10 at 28-Mar-2014 13:33:58.814 CDT
+event analysis========
+Begin processing the 212th record. Run 181913, Event 369155, LumiSection 10 at 28-Mar-2014 13:34:06.860 CDT
+event analysis========
+Begin processing the 213th record. Run 181913, Event 362635, LumiSection 10 at 28-Mar-2014 13:34:14.710 CDT
+event analysis========
+Begin processing the 214th record. Run 181913, Event 369275, LumiSection 10 at 28-Mar-2014 13:34:36.291 CDT
+event analysis========
+Begin processing the 215th record. Run 181913, Event 371283, LumiSection 10 at 28-Mar-2014 13:34:51.623 CDT
+event analysis========
+Begin processing the 216th record. Run 181913, Event 371203, LumiSection 10 at 28-Mar-2014 13:35:00.668 CDT
+event analysis========
+Begin processing the 217th record. Run 181913, Event 369923, LumiSection 10 at 28-Mar-2014 13:35:12.563 CDT
+event analysis========
+Begin processing the 218th record. Run 181913, Event 369875, LumiSection 10 at 28-Mar-2014 13:35:33.678 CDT
+event analysis========
+Begin processing the 219th record. Run 181913, Event 337005, LumiSection 10 at 28-Mar-2014 13:35:47.876 CDT
+event analysis========
+Begin processing the 220th record. Run 181913, Event 339853, LumiSection 10 at 28-Mar-2014 13:35:50.735 CDT
+event analysis========
+Begin processing the 221st record. Run 181913, Event 337045, LumiSection 10 at 28-Mar-2014 13:35:51.260 CDT
+event analysis========
+Begin processing the 222nd record. Run 181913, Event 338021, LumiSection 10 at 28-Mar-2014 13:35:57.132 CDT
+event analysis========
+Begin processing the 223rd record. Run 181913, Event 334237, LumiSection 10 at 28-Mar-2014 13:35:59.202 CDT
+event analysis========
+Begin processing the 224th record. Run 181913, Event 339461, LumiSection 10 at 28-Mar-2014 13:36:11.277 CDT
+event analysis========
+Begin processing the 225th record. Run 181913, Event 338413, LumiSection 10 at 28-Mar-2014 13:36:15.797 CDT
+event analysis========
+Begin processing the 226th record. Run 181913, Event 341053, LumiSection 10 at 28-Mar-2014 13:36:22.282 CDT
+event analysis========
+Begin processing the 227th record. Run 181913, Event 337469, LumiSection 10 at 28-Mar-2014 13:36:27.360 CDT
+event analysis========
+Begin processing the 228th record. Run 181913, Event 341373, LumiSection 10 at 28-Mar-2014 13:36:33.916 CDT
+event analysis========
+Begin processing the 229th record. Run 181913, Event 334309, LumiSection 10 at 28-Mar-2014 13:36:37.280 CDT
+event analysis========
+Begin processing the 230th record. Run 181913, Event 338277, LumiSection 10 at 28-Mar-2014 13:36:49.630 CDT
+event analysis========
+Begin processing the 231st record. Run 181913, Event 335725, LumiSection 10 at 28-Mar-2014 13:36:57.499 CDT
+event analysis========
+Begin processing the 232nd record. Run 181913, Event 334741, LumiSection 10 at 28-Mar-2014 13:37:08.903 CDT
+event analysis========
+Begin processing the 233rd record. Run 181913, Event 348565, LumiSection 10 at 28-Mar-2014 13:37:19.500 CDT
+event analysis========
+Begin processing the 234th record. Run 181913, Event 344013, LumiSection 10 at 28-Mar-2014 13:37:20.862 CDT
+event analysis========
+Begin processing the 235th record. Run 181913, Event 349885, LumiSection 10 at 28-Mar-2014 13:37:26.727 CDT
+event analysis========
+Begin processing the 236th record. Run 181913, Event 344869, LumiSection 10 at 28-Mar-2014 13:37:29.887 CDT
+event analysis========
+Begin processing the 237th record. Run 181913, Event 349973, LumiSection 10 at 28-Mar-2014 13:37:36.124 CDT
+event analysis========
+Begin processing the 238th record. Run 181913, Event 338669, LumiSection 10 at 28-Mar-2014 13:37:44.006 CDT
+event analysis========
+Begin processing the 239th record. Run 181913, Event 350397, LumiSection 10 at 28-Mar-2014 13:38:01.293 CDT
+event analysis========
+Begin processing the 240th record. Run 181913, Event 341973, LumiSection 10 at 28-Mar-2014 13:38:09.553 CDT
+event analysis========
+Begin processing the 241st record. Run 181913, Event 355789, LumiSection 10 at 28-Mar-2014 13:38:22.843 CDT
+event analysis========
+Begin processing the 242nd record. Run 181913, Event 340581, LumiSection 10 at 28-Mar-2014 13:38:24.387 CDT
+event analysis========
+Begin processing the 243rd record. Run 181913, Event 346077, LumiSection 10 at 28-Mar-2014 13:38:40.850 CDT
+event analysis========
+Begin processing the 244th record. Run 181913, Event 337893, LumiSection 10 at 28-Mar-2014 13:38:56.376 CDT
+event analysis========
+Begin processing the 245th record. Run 181913, Event 346029, LumiSection 10 at 28-Mar-2014 13:39:10.214 CDT
+event analysis========
+Begin processing the 246th record. Run 181913, Event 342581, LumiSection 10 at 28-Mar-2014 13:39:14.881 CDT
+event analysis========
+Begin processing the 247th record. Run 181913, Event 350845, LumiSection 10 at 28-Mar-2014 13:39:32.502 CDT
+event analysis========
+Begin processing the 248th record. Run 181913, Event 360861, LumiSection 10 at 28-Mar-2014 13:39:41.802 CDT
+event analysis========
+Begin processing the 249th record. Run 181913, Event 348909, LumiSection 10 at 28-Mar-2014 13:39:41.867 CDT
+event analysis========
+Begin processing the 250th record. Run 181913, Event 341533, LumiSection 10 at 28-Mar-2014 13:39:49.889 CDT
+event analysis========
+Begin processing the 251st record. Run 181913, Event 345533, LumiSection 10 at 28-Mar-2014 13:40:11.215 CDT
+event analysis========
+Begin processing the 252nd record. Run 181913, Event 356229, LumiSection 10 at 28-Mar-2014 13:40:27.330 CDT
+event analysis========
+Begin processing the 253rd record. Run 181913, Event 354797, LumiSection 10 at 28-Mar-2014 13:40:32.246 CDT
+event analysis========
+Begin processing the 254th record. Run 181913, Event 354053, LumiSection 10 at 28-Mar-2014 13:40:50.298 CDT
+event analysis========
+Begin processing the 255th record. Run 181913, Event 354669, LumiSection 10 at 28-Mar-2014 13:41:03.906 CDT
+event analysis========
+Begin processing the 256th record. Run 181913, Event 350013, LumiSection 10 at 28-Mar-2014 13:41:11.112 CDT
+event analysis========
+Begin processing the 257th record. Run 181913, Event 357317, LumiSection 10 at 28-Mar-2014 13:41:26.898 CDT
+event analysis========
+Begin processing the 258th record. Run 181913, Event 360901, LumiSection 10 at 28-Mar-2014 13:41:30.096 CDT
+event analysis========
+Begin processing the 259th record. Run 181913, Event 360621, LumiSection 10 at 28-Mar-2014 13:41:33.142 CDT
+event analysis========
+Begin processing the 260th record. Run 181913, Event 350933, LumiSection 10 at 28-Mar-2014 13:41:37.653 CDT
+event analysis========
+Begin processing the 261st record. Run 181913, Event 367957, LumiSection 10 at 28-Mar-2014 13:41:50.941 CDT
+event analysis========
+Begin processing the 262nd record. Run 181913, Event 361141, LumiSection 10 at 28-Mar-2014 13:41:51.147 CDT
+event analysis========
+Begin processing the 263rd record. Run 181913, Event 354661, LumiSection 10 at 28-Mar-2014 13:41:53.412 CDT
+event analysis========
+Begin processing the 264th record. Run 181913, Event 357373, LumiSection 10 at 28-Mar-2014 13:42:02.409 CDT
+event analysis========
+Begin processing the 265th record. Run 181913, Event 367781, LumiSection 10 at 28-Mar-2014 13:42:09.268 CDT
+event analysis========
+Begin processing the 266th record. Run 181913, Event 361053, LumiSection 10 at 28-Mar-2014 13:42:11.185 CDT
+event analysis========
+Begin processing the 267th record. Run 181913, Event 364869, LumiSection 10 at 28-Mar-2014 13:42:17.723 CDT
+event analysis========
+Begin processing the 268th record. Run 181913, Event 366173, LumiSection 10 at 28-Mar-2014 13:42:26.402 CDT
+event analysis========
+Begin processing the 269th record. Run 181913, Event 360789, LumiSection 10 at 28-Mar-2014 13:42:28.730 CDT
+event analysis========
+Begin processing the 270th record. Run 181913, Event 359477, LumiSection 10 at 28-Mar-2014 13:42:41.234 CDT
+event analysis========
+Begin processing the 271st record. Run 181913, Event 356221, LumiSection 10 at 28-Mar-2014 13:42:48.754 CDT
+event analysis========
+Begin processing the 272nd record. Run 181913, Event 368117, LumiSection 10 at 28-Mar-2014 13:43:07.575 CDT
+event analysis========
+Begin processing the 273rd record. Run 181913, Event 368493, LumiSection 10 at 28-Mar-2014 13:43:10.585 CDT
+event analysis========
+Begin processing the 274th record. Run 181913, Event 356069, LumiSection 10 at 28-Mar-2014 13:43:15.982 CDT
+event analysis========
+Begin processing the 275th record. Run 181913, Event 360285, LumiSection 10 at 28-Mar-2014 13:43:44.626 CDT
+event analysis========
+Begin processing the 276th record. Run 181913, Event 365925, LumiSection 10 at 28-Mar-2014 13:43:56.081 CDT
+event analysis========
+Begin processing the 277th record. Run 181913, Event 365901, LumiSection 10 at 28-Mar-2014 13:44:02.527 CDT
+event analysis========
+Begin processing the 278th record. Run 181913, Event 366493, LumiSection 10 at 28-Mar-2014 13:44:13.256 CDT
+event analysis========
+Begin processing the 279th record. Run 181913, Event 367013, LumiSection 10 at 28-Mar-2014 13:44:27.380 CDT
+event analysis========
+Begin processing the 280th record. Run 181913, Event 363949, LumiSection 10 at 28-Mar-2014 13:44:36.302 CDT
+event analysis========
+Begin processing the 281st record. Run 181913, Event 367029, LumiSection 10 at 28-Mar-2014 13:45:00.837 CDT
+event analysis========
+Begin processing the 282nd record. Run 181913, Event 366621, LumiSection 10 at 28-Mar-2014 13:45:17.967 CDT
+event analysis========
+Begin processing the 283rd record. Run 181913, Event 368613, LumiSection 10 at 28-Mar-2014 13:45:28.508 CDT
+event analysis========
+Begin processing the 284th record. Run 181913, Event 370445, LumiSection 10 at 28-Mar-2014 13:45:39.506 CDT
+event analysis========
+Begin processing the 285th record. Run 181913, Event 332553, LumiSection 10 at 28-Mar-2014 13:45:56.796 CDT
+event analysis========
+Begin processing the 286th record. Run 181913, Event 337217, LumiSection 10 at 28-Mar-2014 13:45:59.397 CDT
+event analysis========
+Begin processing the 287th record. Run 181913, Event 333329, LumiSection 10 at 28-Mar-2014 13:45:59.422 CDT
+event analysis========
+Begin processing the 288th record. Run 181913, Event 337393, LumiSection 10 at 28-Mar-2014 13:46:04.822 CDT
+event analysis========
+Begin processing the 289th record. Run 181913, Event 337457, LumiSection 10 at 28-Mar-2014 13:46:07.164 CDT
+event analysis========
+Begin processing the 290th record. Run 181913, Event 335689, LumiSection 10 at 28-Mar-2014 13:46:08.751 CDT
+event analysis========
+Begin processing the 291st record. Run 181913, Event 339993, LumiSection 10 at 28-Mar-2014 13:46:13.359 CDT
+event analysis========
+Begin processing the 292nd record. Run 181913, Event 342809, LumiSection 10 at 28-Mar-2014 13:46:19.922 CDT
+event analysis========
+Begin processing the 293rd record. Run 181913, Event 334241, LumiSection 10 at 28-Mar-2014 13:46:20.083 CDT
+event analysis========
+Begin processing the 294th record. Run 181913, Event 336145, LumiSection 10 at 28-Mar-2014 13:46:27.160 CDT
+event analysis========
+Begin processing the 295th record. Run 181913, Event 340233, LumiSection 10 at 28-Mar-2014 13:46:33.951 CDT
+event analysis========
+Begin processing the 296th record. Run 181913, Event 346353, LumiSection 10 at 28-Mar-2014 13:46:36.708 CDT
+event analysis========
+Begin processing the 297th record. Run 181913, Event 345649, LumiSection 10 at 28-Mar-2014 13:46:36.738 CDT
+event analysis========
+Begin processing the 298th record. Run 181913, Event 342977, LumiSection 10 at 28-Mar-2014 13:46:37.066 CDT
+event analysis========
+Begin processing the 299th record. Run 181913, Event 345769, LumiSection 10 at 28-Mar-2014 13:46:38.334 CDT
+event analysis========
+Begin processing the 300th record. Run 181913, Event 337913, LumiSection 10 at 28-Mar-2014 13:46:39.927 CDT
+event analysis========
+Begin processing the 301st record. Run 181913, Event 344969, LumiSection 10 at 28-Mar-2014 13:46:47.209 CDT
+event analysis========
+Begin processing the 302nd record. Run 181913, Event 339657, LumiSection 10 at 28-Mar-2014 13:46:49.605 CDT
+event analysis========
+Begin processing the 303rd record. Run 181913, Event 345257, LumiSection 10 at 28-Mar-2014 13:46:55.900 CDT
+event analysis========
+Begin processing the 304th record. Run 181913, Event 335993, LumiSection 10 at 28-Mar-2014 13:46:58.776 CDT
+event analysis========
+Begin processing the 305th record. Run 181913, Event 345281, LumiSection 10 at 28-Mar-2014 13:47:11.976 CDT
+event analysis========
+Begin processing the 306th record. Run 181913, Event 336561, LumiSection 10 at 28-Mar-2014 13:47:15.420 CDT
+event analysis========
+Begin processing the 307th record. Run 181913, Event 347257, LumiSection 10 at 28-Mar-2014 13:47:24.225 CDT
+event analysis========
+Begin processing the 308th record. Run 181913, Event 342953, LumiSection 10 at 28-Mar-2014 13:47:27.709 CDT
+event analysis========
+Begin processing the 309th record. Run 181913, Event 351233, LumiSection 10 at 28-Mar-2014 13:47:32.275 CDT
+event analysis========
+Begin processing the 310th record. Run 181913, Event 352889, LumiSection 10 at 28-Mar-2014 13:47:37.768 CDT
+event analysis========
+Begin processing the 311th record. Run 181913, Event 352761, LumiSection 10 at 28-Mar-2014 13:47:38.129 CDT
+event analysis========
+Begin processing the 312th record. Run 181913, Event 350129, LumiSection 10 at 28-Mar-2014 13:47:38.181 CDT
+event analysis========
+Begin processing the 313th record. Run 181913, Event 351041, LumiSection 10 at 28-Mar-2014 13:47:39.394 CDT
+event analysis========
+Begin processing the 314th record. Run 181913, Event 341449, LumiSection 10 at 28-Mar-2014 13:47:39.814 CDT
+event analysis========
+Begin processing the 315th record. Run 181913, Event 344577, LumiSection 10 at 28-Mar-2014 13:47:56.294 CDT
+event analysis========
+Begin processing the 316th record. Run 181913, Event 340441, LumiSection 10 at 28-Mar-2014 13:48:02.956 CDT
+event analysis========
+Begin processing the 317th record. Run 181913, Event 342505, LumiSection 10 at 28-Mar-2014 13:48:11.971 CDT
+event analysis========
+Begin processing the 318th record. Run 181913, Event 338297, LumiSection 10 at 28-Mar-2014 13:48:22.081 CDT
+event analysis========
+Begin processing the 319th record. Run 181913, Event 344353, LumiSection 10 at 28-Mar-2014 13:48:39.016 CDT
+event analysis========
+Begin processing the 320th record. Run 181913, Event 353657, LumiSection 10 at 28-Mar-2014 13:48:52.111 CDT
+event analysis========
+Begin processing the 321st record. Run 181913, Event 355097, LumiSection 10 at 28-Mar-2014 13:48:56.543 CDT
+event analysis========
+Begin processing the 322nd record. Run 181913, Event 351241, LumiSection 10 at 28-Mar-2014 13:48:59.180 CDT
+event analysis========
+Begin processing the 323rd record. Run 181913, Event 354169, LumiSection 10 at 28-Mar-2014 13:49:05.785 CDT
+event analysis========
+Begin processing the 324th record. Run 181913, Event 360681, LumiSection 10 at 28-Mar-2014 13:49:10.533 CDT
+event analysis========
+Begin processing the 325th record. Run 181913, Event 360353, LumiSection 10 at 28-Mar-2014 13:49:10.694 CDT
+event analysis========
+Begin processing the 326th record. Run 181913, Event 360673, LumiSection 10 at 28-Mar-2014 13:49:12.625 CDT
+event analysis========
+Begin processing the 327th record. Run 181913, Event 358177, LumiSection 10 at 28-Mar-2014 13:49:14.345 CDT
+event analysis========
+Begin processing the 328th record. Run 181913, Event 357817, LumiSection 10 at 28-Mar-2014 13:49:18.823 CDT
+event analysis========
+Begin processing the 329th record. Run 181913, Event 351617, LumiSection 10 at 28-Mar-2014 13:49:21.088 CDT
+event analysis========
+Begin processing the 330th record. Run 181913, Event 356497, LumiSection 10 at 28-Mar-2014 13:49:26.888 CDT
+event analysis========
+Begin processing the 331st record. Run 181913, Event 353361, LumiSection 10 at 28-Mar-2014 13:49:31.550 CDT
+event analysis========
+Begin processing the 332nd record. Run 181913, Event 353137, LumiSection 10 at 28-Mar-2014 13:49:41.493 CDT
+event analysis========
+Begin processing the 333rd record. Run 181913, Event 355433, LumiSection 10 at 28-Mar-2014 13:49:52.506 CDT
+event analysis========
+Begin processing the 334th record. Run 181913, Event 355865, LumiSection 10 at 28-Mar-2014 13:49:59.789 CDT
+event analysis========
+Begin processing the 335th record. Run 181913, Event 360657, LumiSection 10 at 28-Mar-2014 13:50:07.693 CDT
+event analysis========
+Begin processing the 336th record. Run 181913, Event 354785, LumiSection 10 at 28-Mar-2014 13:50:14.682 CDT
+event analysis========
+Begin processing the 337th record. Run 181913, Event 360201, LumiSection 10 at 28-Mar-2014 13:50:22.461 CDT
+event analysis========
+Begin processing the 338th record. Run 181913, Event 359241, LumiSection 10 at 28-Mar-2014 13:50:24.302 CDT
+event analysis========
+Begin processing the 339th record. Run 181913, Event 353409, LumiSection 10 at 28-Mar-2014 13:50:30.015 CDT
+event analysis========
+Begin processing the 340th record. Run 181913, Event 360321, LumiSection 10 at 28-Mar-2014 13:50:36.628 CDT
+event analysis========
+Begin processing the 341st record. Run 181913, Event 365865, LumiSection 10 at 28-Mar-2014 13:50:46.287 CDT
+event analysis========
+Begin processing the 342nd record. Run 181913, Event 358425, LumiSection 10 at 28-Mar-2014 13:50:47.570 CDT
+event analysis========
+Begin processing the 343rd record. Run 181913, Event 363505, LumiSection 10 at 28-Mar-2014 13:50:54.453 CDT
+event analysis========
+Begin processing the 344th record. Run 181913, Event 358417, LumiSection 10 at 28-Mar-2014 13:50:58.004 CDT
+event analysis========
+Begin processing the 345th record. Run 181913, Event 359929, LumiSection 10 at 28-Mar-2014 13:51:11.271 CDT
+event analysis========
+Begin processing the 346th record. Run 181913, Event 367121, LumiSection 10 at 28-Mar-2014 13:51:21.626 CDT
+event analysis========
+Begin processing the 347th record. Run 181913, Event 353537, LumiSection 10 at 28-Mar-2014 13:51:25.070 CDT
+event analysis========
+Begin processing the 348th record. Run 181913, Event 358089, LumiSection 10 at 28-Mar-2014 13:51:38.923 CDT
+event analysis========
+Begin processing the 349th record. Run 181913, Event 363721, LumiSection 10 at 28-Mar-2014 13:51:53.597 CDT
+event analysis========
+Begin processing the 350th record. Run 181913, Event 370849, LumiSection 10 at 28-Mar-2014 13:52:03.779 CDT
+event analysis========
+Begin processing the 351st record. Run 181913, Event 364153, LumiSection 10 at 28-Mar-2014 13:52:07.370 CDT
+event analysis========
+Begin processing the 352nd record. Run 181913, Event 360545, LumiSection 10 at 28-Mar-2014 13:52:18.889 CDT
+event analysis========
+Begin processing the 353rd record. Run 181913, Event 363673, LumiSection 10 at 28-Mar-2014 13:52:34.230 CDT
+event analysis========
+Begin processing the 354th record. Run 181913, Event 360937, LumiSection 10 at 28-Mar-2014 13:52:50.572 CDT
+event analysis========
+Begin processing the 355th record. Run 181913, Event 366721, LumiSection 10 at 28-Mar-2014 13:53:00.473 CDT
+event analysis========
+Begin processing the 356th record. Run 181913, Event 367425, LumiSection 10 at 28-Mar-2014 13:53:16.218 CDT
+event analysis========
+Begin processing the 357th record. Run 181913, Event 371017, LumiSection 10 at 28-Mar-2014 13:53:23.806 CDT
+event analysis========
+Begin processing the 358th record. Run 181913, Event 368841, LumiSection 10 at 28-Mar-2014 13:53:27.758 CDT
+event analysis========
+Begin processing the 359th record. Run 181913, Event 367777, LumiSection 10 at 28-Mar-2014 13:53:34.667 CDT
+event analysis========
+Begin processing the 360th record. Run 181913, Event 371097, LumiSection 10 at 28-Mar-2014 13:53:48.677 CDT
+event analysis========
+Begin processing the 361st record. Run 181913, Event 367449, LumiSection 10 at 28-Mar-2014 13:53:56.332 CDT
+event analysis========
+Begin processing the 362nd record. Run 181913, Event 366129, LumiSection 10 at 28-Mar-2014 13:54:12.280 CDT
+event analysis========
+Begin processing the 363rd record. Run 181913, Event 333750, LumiSection 10 at 28-Mar-2014 13:54:32.539 CDT
+event analysis========
+Begin processing the 364th record. Run 181913, Event 332470, LumiSection 10 at 28-Mar-2014 13:54:36.642 CDT
+event analysis========
+Begin processing the 365th record. Run 181913, Event 338806, LumiSection 10 at 28-Mar-2014 13:54:40.176 CDT
+event analysis========
+Begin processing the 366th record. Run 181913, Event 334934, LumiSection 10 at 28-Mar-2014 13:54:40.709 CDT
+event analysis========
+Begin processing the 367th record. Run 181913, Event 334974, LumiSection 10 at 28-Mar-2014 13:54:44.062 CDT
+event analysis========
+Begin processing the 368th record. Run 181913, Event 338518, LumiSection 10 at 28-Mar-2014 13:54:49.967 CDT
+event analysis========
+Begin processing the 369th record. Run 181913, Event 338078, LumiSection 10 at 28-Mar-2014 13:54:52.564 CDT
+event analysis========
+Begin processing the 370th record. Run 181913, Event 344646, LumiSection 10 at 28-Mar-2014 13:54:54.788 CDT
+event analysis========
+Begin processing the 371st record. Run 181913, Event 342230, LumiSection 10 at 28-Mar-2014 13:54:54.814 CDT
+event analysis========
+Begin processing the 372nd record. Run 181913, Event 342134, LumiSection 10 at 28-Mar-2014 13:54:56.400 CDT
+event analysis========
+Begin processing the 373rd record. Run 181913, Event 333238, LumiSection 10 at 28-Mar-2014 13:54:59.952 CDT
+event analysis========
+Begin processing the 374th record. Run 181913, Event 336526, LumiSection 10 at 28-Mar-2014 13:55:12.366 CDT
+event analysis========
+Begin processing the 375th record. Run 181913, Event 336934, LumiSection 10 at 28-Mar-2014 13:55:17.922 CDT
+event analysis========
+Begin processing the 376th record. Run 181913, Event 334206, LumiSection 10 at 28-Mar-2014 13:55:27.976 CDT
+event analysis========
+Begin processing the 377th record. Run 181913, Event 339526, LumiSection 10 at 28-Mar-2014 13:55:40.078 CDT
+event analysis========
+Begin processing the 378th record. Run 181913, Event 342070, LumiSection 10 at 28-Mar-2014 13:55:48.298 CDT
+event analysis========
+Begin processing the 379th record. Run 181913, Event 340478, LumiSection 10 at 28-Mar-2014 13:55:52.431 CDT
+event analysis========
+Begin processing the 380th record. Run 181913, Event 335774, LumiSection 10 at 28-Mar-2014 13:55:59.588 CDT
+event analysis========
+Begin processing the 381st record. Run 181913, Event 338982, LumiSection 10 at 28-Mar-2014 13:56:05.258 CDT
+event analysis========
+Begin processing the 382nd record. Run 181913, Event 342350, LumiSection 10 at 28-Mar-2014 13:56:16.402 CDT
+event analysis========
+Begin processing the 383rd record. Run 181913, Event 342470, LumiSection 10 at 28-Mar-2014 13:56:19.454 CDT
+event analysis========
+Begin processing the 384th record. Run 181913, Event 351822, LumiSection 10 at 28-Mar-2014 13:56:22.775 CDT
+event analysis========
+Begin processing the 385th record. Run 181913, Event 346294, LumiSection 10 at 28-Mar-2014 13:56:22.801 CDT
+event analysis========
+Begin processing the 386th record. Run 181913, Event 348246, LumiSection 10 at 28-Mar-2014 13:56:26.606 CDT
+event analysis========
+Begin processing the 387th record. Run 181913, Event 336326, LumiSection 10 at 28-Mar-2014 13:56:30.621 CDT
+event analysis========
+Begin processing the 388th record. Run 181913, Event 346678, LumiSection 10 at 28-Mar-2014 13:56:47.561 CDT
+event analysis========
+Begin processing the 389th record. Run 181913, Event 347102, LumiSection 10 at 28-Mar-2014 13:56:57.093 CDT
+event analysis========
+Begin processing the 390th record. Run 181913, Event 343902, LumiSection 10 at 28-Mar-2014 13:57:03.412 CDT
+event analysis========
+Begin processing the 391st record. Run 181913, Event 351958, LumiSection 10 at 28-Mar-2014 13:57:13.451 CDT
+event analysis========
+Begin processing the 392nd record. Run 181913, Event 338278, LumiSection 10 at 28-Mar-2014 13:57:13.628 CDT
+event analysis========
+Begin processing the 393rd record. Run 181913, Event 336310, LumiSection 10 at 28-Mar-2014 13:57:29.667 CDT
+event analysis========
+Begin processing the 394th record. Run 181913, Event 354582, LumiSection 10 at 28-Mar-2014 13:57:43.141 CDT
+event analysis========
+Begin processing the 395th record. Run 181913, Event 345030, LumiSection 10 at 28-Mar-2014 13:57:44.576 CDT
+event analysis========
+Begin processing the 396th record. Run 181913, Event 349358, LumiSection 10 at 28-Mar-2014 13:57:51.725 CDT
+event analysis========
+Begin processing the 397th record. Run 181913, Event 350918, LumiSection 10 at 28-Mar-2014 13:57:57.211 CDT
+event analysis========
+Begin processing the 398th record. Run 181913, Event 353094, LumiSection 10 at 28-Mar-2014 13:58:06.466 CDT
+event analysis========
+Begin processing the 399th record. Run 181913, Event 347454, LumiSection 10 at 28-Mar-2014 13:58:09.410 CDT
+event analysis========
+Begin processing the 400th record. Run 181913, Event 341542, LumiSection 10 at 28-Mar-2014 13:58:17.209 CDT
+event analysis========
+Begin processing the 401st record. Run 181913, Event 353046, LumiSection 10 at 28-Mar-2014 13:58:41.152 CDT
+event analysis========
+Begin processing the 402nd record. Run 181913, Event 349582, LumiSection 10 at 28-Mar-2014 13:58:46.146 CDT
+event analysis========
+Begin processing the 403rd record. Run 181913, Event 344390, LumiSection 10 at 28-Mar-2014 13:58:51.434 CDT
+event analysis========
+Begin processing the 404th record. Run 181913, Event 342294, LumiSection 10 at 28-Mar-2014 13:59:06.300 CDT
+event analysis========
+Begin processing the 405th record. Run 181913, Event 357110, LumiSection 10 at 28-Mar-2014 13:59:24.838 CDT
+event analysis========
+Begin processing the 406th record. Run 181913, Event 350382, LumiSection 10 at 28-Mar-2014 13:59:25.182 CDT
+event analysis========
+Begin processing the 407th record. Run 181913, Event 353150, LumiSection 10 at 28-Mar-2014 13:59:33.035 CDT
+event analysis========
+Begin processing the 408th record. Run 181913, Event 349262, LumiSection 10 at 28-Mar-2014 13:59:36.947 CDT
+event analysis========
+Begin processing the 409th record. Run 181913, Event 347182, LumiSection 10 at 28-Mar-2014 13:59:44.985 CDT
+event analysis========
+Begin processing the 410th record. Run 181913, Event 351710, LumiSection 10 at 28-Mar-2014 13:59:50.735 CDT
+event analysis========
+Begin processing the 411th record. Run 181913, Event 356990, LumiSection 10 at 28-Mar-2014 13:59:54.220 CDT
+event analysis========
+Begin processing the 412th record. Run 181913, Event 360142, LumiSection 10 at 28-Mar-2014 13:59:56.027 CDT
+event analysis========
+Begin processing the 413th record. Run 181913, Event 356350, LumiSection 10 at 28-Mar-2014 13:59:56.143 CDT
+event analysis========
+Begin processing the 414th record. Run 181913, Event 356894, LumiSection 10 at 28-Mar-2014 14:00:00.719 CDT
+event analysis========
+Begin processing the 415th record. Run 181913, Event 349694, LumiSection 10 at 28-Mar-2014 14:00:02.964 CDT
+event analysis========
+Begin processing the 416th record. Run 181913, Event 348494, LumiSection 10 at 28-Mar-2014 14:00:13.723 CDT
+event analysis========
+Begin processing the 417th record. Run 181913, Event 358390, LumiSection 10 at 28-Mar-2014 14:00:25.741 CDT
+event analysis========
+Begin processing the 418th record. Run 181913, Event 356238, LumiSection 10 at 28-Mar-2014 14:00:29.164 CDT
+event analysis========
+Begin processing the 419th record. Run 181913, Event 356294, LumiSection 10 at 28-Mar-2014 14:00:33.849 CDT
+event analysis========
+Begin processing the 420th record. Run 181913, Event 347990, LumiSection 10 at 28-Mar-2014 14:00:38.033 CDT
+event analysis========
+Begin processing the 421st record. Run 181913, Event 344134, LumiSection 10 at 28-Mar-2014 14:00:48.081 CDT
+event analysis========
+Begin processing the 422nd record. Run 181913, Event 351222, LumiSection 10 at 28-Mar-2014 14:01:07.289 CDT
+event analysis========
+Begin processing the 423rd record. Run 181913, Event 360246, LumiSection 10 at 28-Mar-2014 14:01:16.674 CDT
+event analysis========
+Begin processing the 424th record. Run 181913, Event 366214, LumiSection 10 at 28-Mar-2014 14:01:21.595 CDT
+event analysis========
+Begin processing the 425th record. Run 181913, Event 362286, LumiSection 10 at 28-Mar-2014 14:01:21.622 CDT
+event analysis========
+Begin processing the 426th record. Run 181913, Event 349150, LumiSection 10 at 28-Mar-2014 14:01:24.557 CDT
+event analysis========
+Begin processing the 427th record. Run 181913, Event 354902, LumiSection 10 at 28-Mar-2014 14:01:47.675 CDT
+event analysis========
+Begin processing the 428th record. Run 181913, Event 356142, LumiSection 10 at 28-Mar-2014 14:01:56.275 CDT
+event analysis========
+Begin processing the 429th record. Run 181913, Event 351622, LumiSection 10 at 28-Mar-2014 14:02:05.557 CDT
+event analysis========
+Begin processing the 430th record. Run 181913, Event 360046, LumiSection 10 at 28-Mar-2014 14:02:30.397 CDT
+event analysis========
+Begin processing the 431st record. Run 181913, Event 363278, LumiSection 10 at 28-Mar-2014 14:02:32.519 CDT
+event analysis========
+Begin processing the 432nd record. Run 181913, Event 353958, LumiSection 10 at 28-Mar-2014 14:02:41.337 CDT
+event analysis========
+Begin processing the 433rd record. Run 181913, Event 355878, LumiSection 10 at 28-Mar-2014 14:02:57.537 CDT
+event analysis========
+Begin processing the 434th record. Run 181913, Event 370622, LumiSection 10 at 28-Mar-2014 14:03:18.390 CDT
+event analysis========
+Begin processing the 435th record. Run 181913, Event 356846, LumiSection 10 at 28-Mar-2014 14:03:19.925 CDT
+event analysis========
+Begin processing the 436th record. Run 181913, Event 366350, LumiSection 10 at 28-Mar-2014 14:03:32.906 CDT
+event analysis========
+Begin processing the 437th record. Run 181913, Event 362182, LumiSection 10 at 28-Mar-2014 14:03:38.488 CDT
+event analysis========
+Begin processing the 438th record. Run 181913, Event 362430, LumiSection 10 at 28-Mar-2014 14:03:48.092 CDT
+event analysis========
+Begin processing the 439th record. Run 181913, Event 354990, LumiSection 10 at 28-Mar-2014 14:03:55.441 CDT
+event analysis========
+Begin processing the 440th record. Run 181913, Event 370974, LumiSection 10 at 28-Mar-2014 14:04:16.713 CDT
+event analysis========
+Begin processing the 441st record. Run 181913, Event 368886, LumiSection 10 at 28-Mar-2014 14:04:21.560 CDT
+event analysis========
+Begin processing the 442nd record. Run 181913, Event 362038, LumiSection 10 at 28-Mar-2014 14:04:29.381 CDT
+event analysis========
+Begin processing the 443rd record. Run 181913, Event 366926, LumiSection 10 at 28-Mar-2014 14:04:35.620 CDT
+event analysis========
+Begin processing the 444th record. Run 181913, Event 370358, LumiSection 10 at 28-Mar-2014 14:04:45.879 CDT
+event analysis========
+Begin processing the 445th record. Run 181913, Event 367862, LumiSection 10 at 28-Mar-2014 14:04:52.572 CDT
+event analysis========
+Begin processing the 446th record. Run 181913, Event 358846, LumiSection 10 at 28-Mar-2014 14:05:03.072 CDT
+event analysis========
+Begin processing the 447th record. Run 181913, Event 363726, LumiSection 10 at 28-Mar-2014 14:05:19.250 CDT
+event analysis========
+Begin processing the 448th record. Run 181913, Event 371054, LumiSection 10 at 28-Mar-2014 14:05:35.502 CDT
+event analysis========
+Begin processing the 449th record. Run 181913, Event 363502, LumiSection 10 at 28-Mar-2014 14:05:43.970 CDT
+event analysis========
+Begin processing the 450th record. Run 181913, Event 361014, LumiSection 10 at 28-Mar-2014 14:05:56.133 CDT
+event analysis========
+Begin processing the 451st record. Run 181913, Event 370262, LumiSection 10 at 28-Mar-2014 14:06:14.953 CDT
+event analysis========
+Begin processing the 452nd record. Run 181913, Event 369350, LumiSection 10 at 28-Mar-2014 14:06:37.258 CDT
+event analysis========
+Begin processing the 453rd record. Run 181913, Event 333468, LumiSection 10 at 28-Mar-2014 14:06:48.759 CDT
+event analysis========
+Begin processing the 454th record. Run 181913, Event 335556, LumiSection 10 at 28-Mar-2014 14:06:50.997 CDT
+event analysis========
+Begin processing the 455th record. Run 181913, Event 339308, LumiSection 10 at 28-Mar-2014 14:06:51.567 CDT
+event analysis========
+Begin processing the 456th record. Run 181913, Event 337780, LumiSection 10 at 28-Mar-2014 14:06:51.592 CDT
+event analysis========
+Begin processing the 457th record. Run 181913, Event 339132, LumiSection 10 at 28-Mar-2014 14:06:54.762 CDT
+event analysis========
+Begin processing the 458th record. Run 181913, Event 339836, LumiSection 10 at 28-Mar-2014 14:06:56.394 CDT
+event analysis========
+Begin processing the 459th record. Run 181913, Event 341612, LumiSection 10 at 28-Mar-2014 14:06:58.874 CDT
+event analysis========
+Begin processing the 460th record. Run 181913, Event 333908, LumiSection 10 at 28-Mar-2014 14:06:59.686 CDT
+event analysis========
+Begin processing the 461st record. Run 181913, Event 334516, LumiSection 10 at 28-Mar-2014 14:07:10.760 CDT
+event analysis========
+Begin processing the 462nd record. Run 181913, Event 338644, LumiSection 10 at 28-Mar-2014 14:07:24.820 CDT
+event analysis========
+Begin processing the 463rd record. Run 181913, Event 342628, LumiSection 10 at 28-Mar-2014 14:07:31.662 CDT
+event analysis========
+Begin processing the 464th record. Run 181913, Event 332684, LumiSection 10 at 28-Mar-2014 14:07:35.737 CDT
+event analysis========
+Begin processing the 465th record. Run 181913, Event 337828, LumiSection 10 at 28-Mar-2014 14:07:46.131 CDT
+event analysis========
+Begin processing the 466th record. Run 181913, Event 336396, LumiSection 10 at 28-Mar-2014 14:07:53.139 CDT
+event analysis========
+Begin processing the 467th record. Run 181913, Event 344460, LumiSection 10 at 28-Mar-2014 14:08:05.904 CDT
+event analysis========
+Begin processing the 468th record. Run 181913, Event 347988, LumiSection 10 at 28-Mar-2014 14:08:09.064 CDT
+event analysis========
+Begin processing the 469th record. Run 181913, Event 335468, LumiSection 10 at 28-Mar-2014 14:08:09.270 CDT
+event analysis========
+Begin processing the 470th record. Run 181913, Event 343164, LumiSection 10 at 28-Mar-2014 14:08:21.018 CDT
+event analysis========
+Begin processing the 471st record. Run 181913, Event 343460, LumiSection 10 at 28-Mar-2014 14:08:30.624 CDT
+event analysis========
+Begin processing the 472nd record. Run 181913, Event 338980, LumiSection 10 at 28-Mar-2014 14:08:43.604 CDT
+event analysis========
+Begin processing the 473rd record. Run 181913, Event 343076, LumiSection 10 at 28-Mar-2014 14:08:55.616 CDT
+event analysis========
+Begin processing the 474th record. Run 181913, Event 337580, LumiSection 10 at 28-Mar-2014 14:09:04.973 CDT
+event analysis========
+Begin processing the 475th record. Run 181913, Event 347052, LumiSection 10 at 28-Mar-2014 14:09:20.833 CDT
+event analysis========
+Begin processing the 476th record. Run 181913, Event 338332, LumiSection 10 at 28-Mar-2014 14:09:24.271 CDT
+event analysis========
+Begin processing the 477th record. Run 181913, Event 347468, LumiSection 10 at 28-Mar-2014 14:09:39.084 CDT
+event analysis========
+Begin processing the 478th record. Run 181913, Event 348988, LumiSection 10 at 28-Mar-2014 14:09:44.600 CDT
+event analysis========
+Begin processing the 479th record. Run 181913, Event 342588, LumiSection 10 at 28-Mar-2014 14:09:47.730 CDT
+event analysis========
+Begin processing the 480th record. Run 181913, Event 347604, LumiSection 10 at 28-Mar-2014 14:10:03.573 CDT
+event analysis========
+Begin processing the 481st record. Run 181913, Event 353580, LumiSection 10 at 28-Mar-2014 14:10:11.426 CDT
+event analysis========
+Begin processing the 482nd record. Run 181913, Event 338780, LumiSection 10 at 28-Mar-2014 14:10:12.342 CDT
+event analysis========
+Begin processing the 483rd record. Run 181913, Event 349892, LumiSection 10 at 28-Mar-2014 14:10:26.435 CDT
+event analysis========
+Begin processing the 484th record. Run 181913, Event 350900, LumiSection 10 at 28-Mar-2014 14:10:29.439 CDT
+event analysis========
+Begin processing the 485th record. Run 181913, Event 349220, LumiSection 10 at 28-Mar-2014 14:10:33.593 CDT
+event analysis========
+Begin processing the 486th record. Run 181913, Event 346556, LumiSection 10 at 28-Mar-2014 14:10:40.879 CDT
+event analysis========
+Begin processing the 487th record. Run 181913, Event 337364, LumiSection 10 at 28-Mar-2014 14:10:54.128 CDT
+event analysis========
+Begin processing the 488th record. Run 181913, Event 352140, LumiSection 10 at 28-Mar-2014 14:11:08.408 CDT
+event analysis========
+Begin processing the 489th record. Run 181913, Event 343588, LumiSection 10 at 28-Mar-2014 14:11:12.432 CDT
+event analysis========
+Begin processing the 490th record. Run 181913, Event 343940, LumiSection 10 at 28-Mar-2014 14:11:25.937 CDT
+event analysis========
+Begin processing the 491st record. Run 181913, Event 351596, LumiSection 10 at 28-Mar-2014 14:11:50.779 CDT
+event analysis========
+Begin processing the 492nd record. Run 181913, Event 358012, LumiSection 10 at 28-Mar-2014 14:11:54.619 CDT
+event analysis========
+Begin processing the 493rd record. Run 181913, Event 356036, LumiSection 10 at 28-Mar-2014 14:11:55.610 CDT
+event analysis========
+Begin processing the 494th record. Run 181913, Event 342292, LumiSection 10 at 28-Mar-2014 14:11:59.102 CDT
+event analysis========
+Begin processing the 495th record. Run 181913, Event 359444, LumiSection 10 at 28-Mar-2014 14:12:15.196 CDT
+event analysis========
+Begin processing the 496th record. Run 181913, Event 354292, LumiSection 10 at 28-Mar-2014 14:12:16.167 CDT
+event analysis========
+Begin processing the 497th record. Run 181913, Event 356812, LumiSection 10 at 28-Mar-2014 14:12:19.104 CDT
+event analysis========
+Begin processing the 498th record. Run 181913, Event 357460, LumiSection 10 at 28-Mar-2014 14:12:21.463 CDT
+event analysis========
+Begin processing the 499th record. Run 181913, Event 343540, LumiSection 10 at 28-Mar-2014 14:12:23.156 CDT
+event analysis========
+Begin processing the 500th record. Run 181913, Event 362252, LumiSection 10 at 28-Mar-2014 14:13:00.374 CDT
+event analysis========
+Begin processing the 501st record. Run 181913, Event 351172, LumiSection 10 at 28-Mar-2014 14:13:00.700 CDT
+==>HFTree: analyze() in event #500  run: 181913 event: 351172
+UID        PID  PPID  C    SZ   RSS PSR STIME TTY      STAT   TIME CMD
+jiansun   3729 20999 98 283389 735880 20 13:10 pts/21  SN    61:55 cmsRun runForest_44X_reduced_d0dstar_work.py
+event analysis========
+Begin processing the 502nd record. Run 181913, Event 346940, LumiSection 10 at 28-Mar-2014 14:13:27.429 CDT
+event analysis========
+Begin processing the 503rd record. Run 181913, Event 353596, LumiSection 10 at 28-Mar-2014 14:13:37.009 CDT
+event analysis========
+Begin processing the 504th record. Run 181913, Event 350836, LumiSection 10 at 28-Mar-2014 14:13:48.076 CDT
+event analysis========
+Begin processing the 505th record. Run 181913, Event 361724, LumiSection 10 at 28-Mar-2014 14:13:57.842 CDT
+event analysis========
+Begin processing the 506th record. Run 181913, Event 360548, LumiSection 10 at 28-Mar-2014 14:13:59.182 CDT
+event analysis========
+Begin processing the 507th record. Run 181913, Event 363236, LumiSection 10 at 28-Mar-2014 14:14:01.257 CDT
+event analysis========
+Begin processing the 508th record. Run 181913, Event 365660, LumiSection 10 at 28-Mar-2014 14:14:05.526 CDT
+event analysis========
+Begin processing the 509th record. Run 181913, Event 361212, LumiSection 10 at 28-Mar-2014 14:14:05.992 CDT
+event analysis========
+Begin processing the 510th record. Run 181913, Event 353900, LumiSection 10 at 28-Mar-2014 14:14:11.270 CDT
+event analysis========
+Begin processing the 511th record. Run 181913, Event 363628, LumiSection 10 at 28-Mar-2014 14:14:19.389 CDT
+event analysis========
+Begin processing the 512th record. Run 181913, Event 353284, LumiSection 10 at 28-Mar-2014 14:14:23.290 CDT
+event analysis========
+Begin processing the 513th record. Run 181913, Event 364876, LumiSection 10 at 28-Mar-2014 14:14:34.989 CDT
+event analysis========
+Begin processing the 514th record. Run 181913, Event 361028, LumiSection 10 at 28-Mar-2014 14:14:37.378 CDT
+event analysis========
+Begin processing the 515th record. Run 181913, Event 368116, LumiSection 10 at 28-Mar-2014 14:14:42.287 CDT
+event analysis========
+Begin processing the 516th record. Run 181913, Event 356724, LumiSection 10 at 28-Mar-2014 14:14:42.701 CDT
+event analysis========
+Begin processing the 517th record. Run 181913, Event 360436, LumiSection 10 at 28-Mar-2014 14:14:48.355 CDT
+event analysis========
+Begin processing the 518th record. Run 181913, Event 364124, LumiSection 10 at 28-Mar-2014 14:14:59.717 CDT
+event analysis========
+Begin processing the 519th record. Run 181913, Event 359356, LumiSection 10 at 28-Mar-2014 14:15:04.678 CDT
+event analysis========
+Begin processing the 520th record. Run 181913, Event 351044, LumiSection 10 at 28-Mar-2014 14:15:14.150 CDT
+event analysis========
+Begin processing the 521st record. Run 181913, Event 353156, LumiSection 10 at 28-Mar-2014 14:15:45.693 CDT
+event analysis========
+Begin processing the 522nd record. Run 181913, Event 370996, LumiSection 10 at 28-Mar-2014 14:16:01.397 CDT
+event analysis========
+Begin processing the 523rd record. Run 181913, Event 367380, LumiSection 10 at 28-Mar-2014 14:16:02.120 CDT
+event analysis========
+Begin processing the 524th record. Run 181913, Event 370636, LumiSection 10 at 28-Mar-2014 14:16:11.924 CDT
+event analysis========
+Begin processing the 525th record. Run 181913, Event 363884, LumiSection 10 at 28-Mar-2014 14:16:18.486 CDT
+event analysis========
+Begin processing the 526th record. Run 181913, Event 367588, LumiSection 10 at 28-Mar-2014 14:16:30.475 CDT
+event analysis========
+Begin processing the 527th record. Run 181913, Event 369684, LumiSection 10 at 28-Mar-2014 14:16:38.840 CDT
+event analysis========
+Begin processing the 528th record. Run 181913, Event 370652, LumiSection 10 at 28-Mar-2014 14:16:51.058 CDT
+event analysis========
+Begin processing the 529th record. Run 181913, Event 370844, LumiSection 10 at 28-Mar-2014 14:17:03.943 CDT
+event analysis========
+Begin processing the 530th record. Run 181913, Event 336672, LumiSection 10 at 28-Mar-2014 14:17:13.933 CDT
+event analysis========
+Begin processing the 531st record. Run 181913, Event 333344, LumiSection 10 at 28-Mar-2014 14:17:15.852 CDT
+event analysis========
+Begin processing the 532nd record. Run 181913, Event 339848, LumiSection 10 at 28-Mar-2014 14:17:25.877 CDT
+event analysis========
+Begin processing the 533rd record. Run 181913, Event 332960, LumiSection 10 at 28-Mar-2014 14:17:27.505 CDT
+event analysis========
+Begin processing the 534th record. Run 181913, Event 332848, LumiSection 10 at 28-Mar-2014 14:17:38.771 CDT
+event analysis========
+Begin processing the 535th record. Run 181913, Event 338320, LumiSection 10 at 28-Mar-2014 14:17:48.392 CDT
+event analysis========
+Begin processing the 536th record. Run 181913, Event 341936, LumiSection 10 at 28-Mar-2014 14:17:52.253 CDT
+event analysis========
+Begin processing the 537th record. Run 181913, Event 338840, LumiSection 10 at 28-Mar-2014 14:17:55.488 CDT
+event analysis========
+Begin processing the 538th record. Run 181913, Event 335000, LumiSection 10 at 28-Mar-2014 14:18:00.411 CDT
+event analysis========
+Begin processing the 539th record. Run 181913, Event 344512, LumiSection 10 at 28-Mar-2014 14:18:17.781 CDT
+event analysis========
+Begin processing the 540th record. Run 181913, Event 336880, LumiSection 10 at 28-Mar-2014 14:18:18.519 CDT
+event analysis========
+Begin processing the 541st record. Run 181913, Event 341856, LumiSection 10 at 28-Mar-2014 14:18:26.132 CDT
+event analysis========
+Begin processing the 542nd record. Run 181913, Event 346312, LumiSection 10 at 28-Mar-2014 14:18:31.325 CDT
+event analysis========
+Begin processing the 543rd record. Run 181913, Event 334320, LumiSection 10 at 28-Mar-2014 14:18:34.257 CDT
+event analysis========
+Begin processing the 544th record. Run 181913, Event 347640, LumiSection 10 at 28-Mar-2014 14:18:45.524 CDT
+event analysis========
+Begin processing the 545th record. Run 181913, Event 344192, LumiSection 10 at 28-Mar-2014 14:18:45.865 CDT
+event analysis========
+Begin processing the 546th record. Run 181913, Event 338408, LumiSection 10 at 28-Mar-2014 14:18:48.855 CDT
+event analysis========
+Begin processing the 547th record. Run 181913, Event 338016, LumiSection 10 at 28-Mar-2014 14:18:55.698 CDT
+event analysis========
+Begin processing the 548th record. Run 181913, Event 339856, LumiSection 10 at 28-Mar-2014 14:19:10.092 CDT
+event analysis========
+Begin processing the 549th record. Run 181913, Event 336240, LumiSection 10 at 28-Mar-2014 14:19:21.656 CDT
+event analysis========
+Begin processing the 550th record. Run 181913, Event 348912, LumiSection 10 at 28-Mar-2014 14:19:32.306 CDT
+event analysis========
+Begin processing the 551st record. Run 181913, Event 349992, LumiSection 10 at 28-Mar-2014 14:19:38.012 CDT
+event analysis========
+Begin processing the 552nd record. Run 181913, Event 353544, LumiSection 10 at 28-Mar-2014 14:19:42.144 CDT
+event analysis========
+Begin processing the 553rd record. Run 181913, Event 348024, LumiSection 10 at 28-Mar-2014 14:19:42.862 CDT
+event analysis========
+Begin processing the 554th record. Run 181913, Event 352224, LumiSection 10 at 28-Mar-2014 14:19:51.542 CDT
+event analysis========
+Begin processing the 555th record. Run 181913, Event 350880, LumiSection 10 at 28-Mar-2014 14:19:53.301 CDT
+event analysis========
+Begin processing the 556th record. Run 181913, Event 354912, LumiSection 10 at 28-Mar-2014 14:19:57.138 CDT
+event analysis========
+Begin processing the 557th record. Run 181913, Event 338888, LumiSection 10 at 28-Mar-2014 14:19:57.539 CDT
+event analysis========
+Begin processing the 558th record. Run 181913, Event 347824, LumiSection 10 at 28-Mar-2014 14:20:18.943 CDT
+event analysis========
+Begin processing the 559th record. Run 181913, Event 347840, LumiSection 10 at 28-Mar-2014 14:20:27.139 CDT
+event analysis========
+Begin processing the 560th record. Run 181913, Event 350280, LumiSection 10 at 28-Mar-2014 14:20:34.110 CDT
+event analysis========
+Begin processing the 561st record. Run 181913, Event 356992, LumiSection 10 at 28-Mar-2014 14:20:40.358 CDT
+event analysis========
+Begin processing the 562nd record. Run 181913, Event 359528, LumiSection 10 at 28-Mar-2014 14:20:42.442 CDT
+event analysis========
+Begin processing the 563rd record. Run 181913, Event 356120, LumiSection 10 at 28-Mar-2014 14:20:42.556 CDT
+event analysis========
+Begin processing the 564th record. Run 181913, Event 355600, LumiSection 10 at 28-Mar-2014 14:20:44.467 CDT
+event analysis========
+Begin processing the 565th record. Run 181913, Event 359368, LumiSection 10 at 28-Mar-2014 14:20:49.091 CDT
+event analysis========
+Begin processing the 566th record. Run 181913, Event 355072, LumiSection 10 at 28-Mar-2014 14:20:50.072 CDT
+event analysis========
+Begin processing the 567th record. Run 181913, Event 357104, LumiSection 10 at 28-Mar-2014 14:20:55.294 CDT
+event analysis========
+Begin processing the 568th record. Run 181913, Event 351984, LumiSection 10 at 28-Mar-2014 14:20:57.308 CDT
+event analysis========
+Begin processing the 569th record. Run 181913, Event 346136, LumiSection 10 at 28-Mar-2014 14:21:03.910 CDT
+event analysis========
+Begin processing the 570th record. Run 181913, Event 346864, LumiSection 10 at 28-Mar-2014 14:21:19.249 CDT
+event analysis========
+Begin processing the 571st record. Run 181913, Event 360368, LumiSection 10 at 28-Mar-2014 14:21:30.367 CDT
+event analysis========
+Begin processing the 572nd record. Run 181913, Event 338896, LumiSection 10 at 28-Mar-2014 14:21:31.278 CDT
+event analysis========
+Begin processing the 573rd record. Run 181913, Event 356704, LumiSection 10 at 28-Mar-2014 14:21:51.779 CDT
+event analysis========
+Begin processing the 574th record. Run 181913, Event 351696, LumiSection 10 at 28-Mar-2014 14:21:56.420 CDT
+event analysis========
+Begin processing the 575th record. Run 181913, Event 363432, LumiSection 10 at 28-Mar-2014 14:22:06.091 CDT
+event analysis========
+Begin processing the 576th record. Run 181913, Event 354224, LumiSection 10 at 28-Mar-2014 14:22:07.099 CDT
+event analysis========
+Begin processing the 577th record. Run 181913, Event 363128, LumiSection 10 at 28-Mar-2014 14:22:13.093 CDT
+event analysis========
+Begin processing the 578th record. Run 181913, Event 361456, LumiSection 10 at 28-Mar-2014 14:22:13.416 CDT
+event analysis========
+Begin processing the 579th record. Run 181913, Event 354240, LumiSection 10 at 28-Mar-2014 14:22:20.805 CDT
+event analysis========
+Begin processing the 580th record. Run 181913, Event 360440, LumiSection 10 at 28-Mar-2014 14:22:30.614 CDT
+event analysis========
+Begin processing the 581st record. Run 181913, Event 358888, LumiSection 10 at 28-Mar-2014 14:22:35.408 CDT
+event analysis========
+Begin processing the 582nd record. Run 181913, Event 367936, LumiSection 10 at 28-Mar-2014 14:22:41.733 CDT
+event analysis========
+Begin processing the 583rd record. Run 181913, Event 356328, LumiSection 10 at 28-Mar-2014 14:22:42.007 CDT
+event analysis========
+Begin processing the 584th record. Run 181913, Event 360648, LumiSection 10 at 28-Mar-2014 14:22:55.478 CDT
+event analysis========
+Begin processing the 585th record. Run 181913, Event 365816, LumiSection 10 at 28-Mar-2014 14:23:03.555 CDT
+event analysis========
+Begin processing the 586th record. Run 181913, Event 362448, LumiSection 10 at 28-Mar-2014 14:23:12.248 CDT
+event analysis========
+Begin processing the 587th record. Run 181913, Event 362232, LumiSection 10 at 28-Mar-2014 14:23:17.417 CDT
+event analysis========
+Begin processing the 588th record. Run 181913, Event 359560, LumiSection 10 at 28-Mar-2014 14:23:29.169 CDT
+event analysis========
+Begin processing the 589th record. Run 181913, Event 358224, LumiSection 10 at 28-Mar-2014 14:23:36.039 CDT
+event analysis========
+Begin processing the 590th record. Run 181913, Event 367200, LumiSection 10 at 28-Mar-2014 14:23:54.302 CDT
+event analysis========
+Begin processing the 591st record. Run 181913, Event 357496, LumiSection 10 at 28-Mar-2014 14:23:58.839 CDT
+event analysis========
+Begin processing the 592nd record. Run 181913, Event 369176, LumiSection 10 at 28-Mar-2014 14:24:09.721 CDT
+event analysis========
+Begin processing the 593rd record. Run 181913, Event 352504, LumiSection 10 at 28-Mar-2014 14:24:13.501 CDT
+event analysis========
+Begin processing the 594th record. Run 181913, Event 352112, LumiSection 10 at 28-Mar-2014 14:24:30.260 CDT
+event analysis========
+Begin processing the 595th record. Run 181913, Event 357376, LumiSection 10 at 28-Mar-2014 14:24:53.931 CDT
+event analysis========
+Begin processing the 596th record. Run 181913, Event 358712, LumiSection 10 at 28-Mar-2014 14:25:05.767 CDT
+event analysis========
+Begin processing the 597th record. Run 181913, Event 370808, LumiSection 10 at 28-Mar-2014 14:25:18.879 CDT
+event analysis========
+Begin processing the 598th record. Run 181913, Event 366104, LumiSection 10 at 28-Mar-2014 14:25:23.756 CDT
+event analysis========
+Begin processing the 599th record. Run 181913, Event 355480, LumiSection 10 at 28-Mar-2014 14:25:30.024 CDT
+event analysis========
+Begin processing the 600th record. Run 181913, Event 370912, LumiSection 10 at 28-Mar-2014 14:25:45.986 CDT
+event analysis========
+Begin processing the 601st record. Run 181913, Event 366384, LumiSection 10 at 28-Mar-2014 14:25:48.416 CDT
+event analysis========
+Begin processing the 602nd record. Run 181913, Event 367528, LumiSection 10 at 28-Mar-2014 14:25:52.474 CDT
+event analysis========
+Begin processing the 603rd record. Run 181913, Event 366888, LumiSection 10 at 28-Mar-2014 14:25:58.125 CDT
+event analysis========
+Begin processing the 604th record. Run 181913, Event 369912, LumiSection 10 at 28-Mar-2014 14:26:10.081 CDT
+event analysis========
+Begin processing the 605th record. Run 181913, Event 361072, LumiSection 10 at 28-Mar-2014 14:26:15.631 CDT
+event analysis========
+Begin processing the 606th record. Run 181913, Event 368352, LumiSection 10 at 28-Mar-2014 14:26:38.180 CDT
+event analysis========
+Begin processing the 607th record. Run 181913, Event 371096, LumiSection 10 at 28-Mar-2014 14:26:55.931 CDT
+event analysis========
+Begin processing the 608th record. Run 181913, Event 368696, LumiSection 10 at 28-Mar-2014 14:27:06.022 CDT
+event analysis========
+Begin processing the 609th record. Run 181913, Event 369728, LumiSection 10 at 28-Mar-2014 14:27:17.441 CDT
+event analysis========
+Begin processing the 610th record. Run 181913, Event 366160, LumiSection 10 at 28-Mar-2014 14:27:29.990 CDT
+event analysis========
+Begin processing the 611th record. Run 181913, Event 364080, LumiSection 10 at 28-Mar-2014 14:27:53.632 CDT
+event analysis========
+Begin processing the 612th record. Run 181913, Event 365568, LumiSection 10 at 28-Mar-2014 14:28:10.668 CDT
+event analysis========
+Begin processing the 613th record. Run 181913, Event 367136, LumiSection 10 at 28-Mar-2014 14:28:28.474 CDT
+event analysis========
+Begin processing the 614th record. Run 181913, Event 371264, LumiSection 10 at 28-Mar-2014 14:28:46.907 CDT
+event analysis========
+Begin processing the 615th record. Run 181913, Event 332604, LumiSection 10 at 28-Mar-2014 14:29:03.283 CDT
+event analysis========
+Begin processing the 616th record. Run 181913, Event 333108, LumiSection 10 at 28-Mar-2014 14:29:06.064 CDT
+event analysis========
+Begin processing the 617th record. Run 181913, Event 335876, LumiSection 10 at 28-Mar-2014 14:29:10.593 CDT
+event analysis========
+Begin processing the 618th record. Run 181913, Event 332828, LumiSection 10 at 28-Mar-2014 14:29:11.715 CDT
+event analysis========
+Begin processing the 619th record. Run 181913, Event 336908, LumiSection 10 at 28-Mar-2014 14:29:18.341 CDT
+event analysis========
+Begin processing the 620th record. Run 181913, Event 336260, LumiSection 10 at 28-Mar-2014 14:29:19.784 CDT
+event analysis========
+Begin processing the 621st record. Run 181913, Event 334876, LumiSection 10 at 28-Mar-2014 14:29:22.910 CDT
+event analysis========
+Begin processing the 622nd record. Run 181913, Event 334148, LumiSection 10 at 28-Mar-2014 14:29:25.908 CDT
+event analysis========
+Begin processing the 623rd record. Run 181913, Event 335820, LumiSection 10 at 28-Mar-2014 14:29:30.245 CDT
+event analysis========
+Begin processing the 624th record. Run 181913, Event 344164, LumiSection 10 at 28-Mar-2014 14:29:33.116 CDT
+event analysis========
+Begin processing the 625th record. Run 181913, Event 339292, LumiSection 10 at 28-Mar-2014 14:29:33.732 CDT
+event analysis========
+Begin processing the 626th record. Run 181913, Event 334908, LumiSection 10 at 28-Mar-2014 14:29:39.743 CDT
+event analysis========
+Begin processing the 627th record. Run 181913, Event 335252, LumiSection 10 at 28-Mar-2014 14:29:51.399 CDT
+event analysis========
+Begin processing the 628th record. Run 181913, Event 334412, LumiSection 10 at 28-Mar-2014 14:30:01.293 CDT
+event analysis========
+Begin processing the 629th record. Run 181913, Event 341020, LumiSection 10 at 28-Mar-2014 14:30:10.368 CDT
+event analysis========
+Begin processing the 630th record. Run 181913, Event 340532, LumiSection 10 at 28-Mar-2014 14:30:16.852 CDT
+event analysis========
+Begin processing the 631st record. Run 181913, Event 336108, LumiSection 10 at 28-Mar-2014 14:30:23.588 CDT
+event analysis========
+Begin processing the 632nd record. Run 181913, Event 346980, LumiSection 10 at 28-Mar-2014 14:30:36.097 CDT
+event analysis========
+Begin processing the 633rd record. Run 181913, Event 332804, LumiSection 10 at 28-Mar-2014 14:30:38.224 CDT
+event analysis========
+Begin processing the 634th record. Run 181913, Event 351724, LumiSection 10 at 28-Mar-2014 14:30:54.253 CDT
+event analysis========
+Begin processing the 635th record. Run 181913, Event 343396, LumiSection 10 at 28-Mar-2014 14:30:54.566 CDT
+event analysis========
+Begin processing the 636th record. Run 181913, Event 342188, LumiSection 10 at 28-Mar-2014 14:31:09.883 CDT
+event analysis========
+Begin processing the 637th record. Run 181913, Event 338436, LumiSection 10 at 28-Mar-2014 14:31:15.953 CDT
+event analysis========
+Begin processing the 638th record. Run 181913, Event 338940, LumiSection 10 at 28-Mar-2014 14:31:24.363 CDT
+event analysis========
+Begin processing the 639th record. Run 181913, Event 346380, LumiSection 10 at 28-Mar-2014 14:31:36.187 CDT
+event analysis========
+Begin processing the 640th record. Run 181913, Event 346172, LumiSection 10 at 28-Mar-2014 14:31:41.995 CDT
+event analysis========
+Begin processing the 641st record. Run 181913, Event 347012, LumiSection 10 at 28-Mar-2014 14:31:49.318 CDT
+event analysis========
+Begin processing the 642nd record. Run 181913, Event 351556, LumiSection 10 at 28-Mar-2014 14:31:57.175 CDT
+event analysis========
+Begin processing the 643rd record. Run 181913, Event 355708, LumiSection 10 at 28-Mar-2014 14:32:02.421 CDT
+event analysis========
+Begin processing the 644th record. Run 181913, Event 343972, LumiSection 10 at 28-Mar-2014 14:32:04.151 CDT
+event analysis========
+Begin processing the 645th record. Run 181913, Event 358676, LumiSection 10 at 28-Mar-2014 14:32:21.604 CDT
+event analysis========
+Begin processing the 646th record. Run 181913, Event 339396, LumiSection 10 at 28-Mar-2014 14:32:21.701 CDT
+event analysis========
+Begin processing the 647th record. Run 181913, Event 347700, LumiSection 10 at 28-Mar-2014 14:32:35.921 CDT
+event analysis========
+Begin processing the 648th record. Run 181913, Event 347124, LumiSection 10 at 28-Mar-2014 14:32:48.494 CDT
+event analysis========
+Begin processing the 649th record. Run 181913, Event 342428, LumiSection 10 at 28-Mar-2014 14:32:57.383 CDT
+event analysis========
+Begin processing the 650th record. Run 181913, Event 350908, LumiSection 10 at 28-Mar-2014 14:33:16.785 CDT
+event analysis========
+Begin processing the 651st record. Run 181913, Event 347828, LumiSection 10 at 28-Mar-2014 14:33:30.810 CDT
+event analysis========
+Begin processing the 652nd record. Run 181913, Event 357940, LumiSection 10 at 28-Mar-2014 14:33:51.956 CDT
+event analysis========
+Begin processing the 653rd record. Run 181913, Event 355348, LumiSection 10 at 28-Mar-2014 14:33:53.972 CDT
+event analysis========
+Begin processing the 654th record. Run 181913, Event 347668, LumiSection 10 at 28-Mar-2014 14:33:58.165 CDT
+event analysis========
+Begin processing the 655th record. Run 181913, Event 349324, LumiSection 10 at 28-Mar-2014 14:34:13.396 CDT
+event analysis========
+Begin processing the 656th record. Run 181913, Event 357100, LumiSection 10 at 28-Mar-2014 14:34:32.377 CDT
+event analysis========
+Begin processing the 657th record. Run 181913, Event 353236, LumiSection 10 at 28-Mar-2014 14:34:35.993 CDT
+event analysis========
+Begin processing the 658th record. Run 181913, Event 363332, LumiSection 10 at 28-Mar-2014 14:34:48.465 CDT
+event analysis========
+Begin processing the 659th record. Run 181913, Event 357916, LumiSection 10 at 28-Mar-2014 14:34:51.163 CDT
+event analysis========
+Begin processing the 660th record. Run 181913, Event 364908, LumiSection 10 at 28-Mar-2014 14:35:02.655 CDT
+event analysis========
+Begin processing the 661st record. Run 181913, Event 358940, LumiSection 10 at 28-Mar-2014 14:35:03.591 CDT
+event analysis========
+Begin processing the 662nd record. Run 181913, Event 355188, LumiSection 10 at 28-Mar-2014 14:35:10.387 CDT
+event analysis========
+Begin processing the 663rd record. Run 181913, Event 364404, LumiSection 10 at 28-Mar-2014 14:35:19.272 CDT
+event analysis========
+Begin processing the 664th record. Run 181913, Event 359028, LumiSection 10 at 28-Mar-2014 14:35:22.726 CDT
+event analysis========
+Begin processing the 665th record. Run 181913, Event 368220, LumiSection 10 at 28-Mar-2014 14:35:30.832 CDT
+event analysis========
+Begin processing the 666th record. Run 181913, Event 357956, LumiSection 10 at 28-Mar-2014 14:35:32.406 CDT
+event analysis========
+Begin processing the 667th record. Run 181913, Event 360740, LumiSection 10 at 28-Mar-2014 14:35:48.880 CDT
+event analysis========
+Begin processing the 668th record. Run 181913, Event 361092, LumiSection 10 at 28-Mar-2014 14:35:52.705 CDT
+event analysis========
+Begin processing the 669th record. Run 181913, Event 371036, LumiSection 10 at 28-Mar-2014 14:35:57.392 CDT
+event analysis========
+Begin processing the 670th record. Run 181913, Event 370140, LumiSection 10 at 28-Mar-2014 14:36:00.981 CDT
+event analysis========
+Begin processing the 671st record. Run 181913, Event 369372, LumiSection 10 at 28-Mar-2014 14:36:03.787 CDT
+event analysis========
+Begin processing the 672nd record. Run 181913, Event 360580, LumiSection 10 at 28-Mar-2014 14:36:09.726 CDT
+event analysis========
+Begin processing the 673rd record. Run 181913, Event 366780, LumiSection 10 at 28-Mar-2014 14:36:19.116 CDT
+event analysis========
+Begin processing the 674th record. Run 181913, Event 358964, LumiSection 10 at 28-Mar-2014 14:36:27.316 CDT
+event analysis========
+Begin processing the 675th record. Run 181913, Event 369620, LumiSection 10 at 28-Mar-2014 14:36:44.743 CDT
+event analysis========
+Begin processing the 676th record. Run 181913, Event 355700, LumiSection 10 at 28-Mar-2014 14:36:52.894 CDT
+event analysis========
+Begin processing the 677th record. Run 181913, Event 357716, LumiSection 10 at 28-Mar-2014 14:37:00.934 CDT
+event analysis========
+Begin processing the 678th record. Run 181913, Event 366148, LumiSection 10 at 28-Mar-2014 14:37:29.237 CDT
+event analysis========
+Begin processing the 679th record. Run 181913, Event 371332, LumiSection 10 at 28-Mar-2014 14:37:37.613 CDT
+event analysis========
+Begin processing the 680th record. Run 181913, Event 371372, LumiSection 10 at 28-Mar-2014 14:37:40.954 CDT
+event analysis========
+Begin processing the 681st record. Run 181913, Event 363412, LumiSection 10 at 28-Mar-2014 14:37:44.374 CDT
+event analysis========
+Begin processing the 682nd record. Run 181913, Event 360996, LumiSection 10 at 28-Mar-2014 14:38:04.356 CDT
+event analysis========
+Begin processing the 683rd record. Run 181913, Event 363340, LumiSection 10 at 28-Mar-2014 14:38:19.372 CDT
+event analysis========
+Begin processing the 684th record. Run 181913, Event 369508, LumiSection 10 at 28-Mar-2014 14:38:40.910 CDT
+event analysis========
+Begin processing the 685th record. Run 181913, Event 371068, LumiSection 10 at 28-Mar-2014 14:38:59.739 CDT
+event analysis========
+Begin processing the 686th record. Run 181913, Event 332855, LumiSection 10 at 28-Mar-2014 14:39:10.599 CDT
+event analysis========
+Begin processing the 687th record. Run 181913, Event 333895, LumiSection 10 at 28-Mar-2014 14:39:11.017 CDT
+event analysis========
+Begin processing the 688th record. Run 181913, Event 338407, LumiSection 10 at 28-Mar-2014 14:39:14.619 CDT
+event analysis========
+Begin processing the 689th record. Run 181913, Event 333431, LumiSection 10 at 28-Mar-2014 14:39:15.671 CDT
+event analysis========
+Begin processing the 690th record. Run 181913, Event 334415, LumiSection 10 at 28-Mar-2014 14:39:19.592 CDT
+event analysis========
+Begin processing the 691st record. Run 181913, Event 338199, LumiSection 10 at 28-Mar-2014 14:39:24.244 CDT
+event analysis========
+Begin processing the 692nd record. Run 181913, Event 342695, LumiSection 10 at 28-Mar-2014 14:39:28.867 CDT
+event analysis========
+Begin processing the 693rd record. Run 181913, Event 334751, LumiSection 10 at 28-Mar-2014 14:39:28.894 CDT
+event analysis========
+Begin processing the 694th record. Run 181913, Event 336311, LumiSection 10 at 28-Mar-2014 14:39:33.177 CDT
+event analysis========
+Begin processing the 695th record. Run 181913, Event 333775, LumiSection 10 at 28-Mar-2014 14:39:39.671 CDT
+event analysis========
+Begin processing the 696th record. Run 181913, Event 343479, LumiSection 10 at 28-Mar-2014 14:39:48.717 CDT
+event analysis========
+Begin processing the 697th record. Run 181913, Event 338887, LumiSection 10 at 28-Mar-2014 14:39:50.298 CDT
+event analysis========
+Begin processing the 698th record. Run 181913, Event 335727, LumiSection 10 at 28-Mar-2014 14:39:58.953 CDT
+event analysis========
+Begin processing the 699th record. Run 181913, Event 346743, LumiSection 10 at 28-Mar-2014 14:40:06.973 CDT
+event analysis========
+Begin processing the 700th record. Run 181913, Event 338663, LumiSection 10 at 28-Mar-2014 14:40:08.164 CDT
+event analysis========
+Begin processing the 701st record. Run 181913, Event 335935, LumiSection 10 at 28-Mar-2014 14:40:16.051 CDT
+event analysis========
+Begin processing the 702nd record. Run 181913, Event 335775, LumiSection 10 at 28-Mar-2014 14:40:28.842 CDT
+event analysis========
+Begin processing the 703rd record. Run 181913, Event 344447, LumiSection 10 at 28-Mar-2014 14:40:44.388 CDT
+event analysis========
+Begin processing the 704th record. Run 181913, Event 348015, LumiSection 10 at 28-Mar-2014 14:40:48.110 CDT
+event analysis========
+Begin processing the 705th record. Run 181913, Event 337535, LumiSection 10 at 28-Mar-2014 14:40:51.259 CDT
+event analysis========
+Begin processing the 706th record. Run 181913, Event 349871, LumiSection 10 at 28-Mar-2014 14:41:06.414 CDT
+event analysis========
+Begin processing the 707th record. Run 181913, Event 345391, LumiSection 10 at 28-Mar-2014 14:41:08.689 CDT
+event analysis========
+Begin processing the 708th record. Run 181913, Event 334407, LumiSection 10 at 28-Mar-2014 14:41:17.291 CDT
+event analysis========
+Begin processing the 709th record. Run 181913, Event 343063, LumiSection 10 at 28-Mar-2014 14:41:35.972 CDT
+event analysis========
+Begin processing the 710th record. Run 181913, Event 354287, LumiSection 10 at 28-Mar-2014 14:41:43.685 CDT
+event analysis========
+Begin processing the 711th record. Run 181913, Event 347639, LumiSection 10 at 28-Mar-2014 14:41:43.830 CDT
+event analysis========
+Begin processing the 712th record. Run 181913, Event 354423, LumiSection 10 at 28-Mar-2014 14:41:53.614 CDT
+event analysis========
+Begin processing the 713th record. Run 181913, Event 346495, LumiSection 10 at 28-Mar-2014 14:41:54.608 CDT
+event analysis========
+Begin processing the 714th record. Run 181913, Event 347511, LumiSection 10 at 28-Mar-2014 14:42:02.037 CDT
+event analysis========
+Begin processing the 715th record. Run 181913, Event 350583, LumiSection 10 at 28-Mar-2014 14:42:12.237 CDT
+event analysis========
+Begin processing the 716th record. Run 181913, Event 346479, LumiSection 10 at 28-Mar-2014 14:42:16.467 CDT
+event analysis========
+Begin processing the 717th record. Run 181913, Event 342999, LumiSection 10 at 28-Mar-2014 14:42:31.896 CDT
+event analysis========
+Begin processing the 718th record. Run 181913, Event 353575, LumiSection 10 at 28-Mar-2014 14:42:49.876 CDT
+event analysis========
+Begin processing the 719th record. Run 181913, Event 359247, LumiSection 10 at 28-Mar-2014 14:42:54.898 CDT
+event analysis========
+Begin processing the 720th record. Run 181913, Event 352647, LumiSection 10 at 28-Mar-2014 14:42:55.069 CDT
+event analysis========
+Begin processing the 721st record. Run 181913, Event 354487, LumiSection 10 at 28-Mar-2014 14:42:59.815 CDT
+event analysis========
+Begin processing the 722nd record. Run 181913, Event 357767, LumiSection 10 at 28-Mar-2014 14:43:01.937 CDT
+event analysis========
+Begin processing the 723rd record. Run 181913, Event 358231, LumiSection 10 at 28-Mar-2014 14:43:04.215 CDT
+event analysis========
+Begin processing the 724th record. Run 181913, Event 357695, LumiSection 10 at 28-Mar-2014 14:43:10.544 CDT
+event analysis========
+Begin processing the 725th record. Run 181913, Event 347575, LumiSection 10 at 28-Mar-2014 14:43:18.887 CDT
+event analysis========
+Begin processing the 726th record. Run 181913, Event 358495, LumiSection 10 at 28-Mar-2014 14:43:35.204 CDT
+event analysis========
+Begin processing the 727th record. Run 181913, Event 362727, LumiSection 10 at 28-Mar-2014 14:43:42.594 CDT
+event analysis========
+Begin processing the 728th record. Run 181913, Event 364807, LumiSection 10 at 28-Mar-2014 14:43:43.457 CDT
+event analysis========
+Begin processing the 729th record. Run 181913, Event 355103, LumiSection 10 at 28-Mar-2014 14:43:44.695 CDT
+event analysis========
+Begin processing the 730th record. Run 181913, Event 360503, LumiSection 10 at 28-Mar-2014 14:44:01.439 CDT
+event analysis========
+Begin processing the 731st record. Run 181913, Event 351615, LumiSection 10 at 28-Mar-2014 14:44:05.135 CDT
+event analysis========
+Begin processing the 732nd record. Run 181913, Event 356231, LumiSection 10 at 28-Mar-2014 14:44:23.331 CDT
+event analysis========
+Begin processing the 733rd record. Run 181913, Event 347967, LumiSection 10 at 28-Mar-2014 14:44:30.455 CDT
+event analysis========
+Begin processing the 734th record. Run 181913, Event 364207, LumiSection 10 at 28-Mar-2014 14:44:46.850 CDT
+event analysis========
+Begin processing the 735th record. Run 181913, Event 353487, LumiSection 10 at 28-Mar-2014 14:44:49.221 CDT
+event analysis========
+Begin processing the 736th record. Run 181913, Event 356127, LumiSection 10 at 28-Mar-2014 14:45:06.188 CDT
+event analysis========
+Begin processing the 737th record. Run 181913, Event 356479, LumiSection 10 at 28-Mar-2014 14:45:23.618 CDT
+event analysis========
+Begin processing the 738th record. Run 181913, Event 356967, LumiSection 10 at 28-Mar-2014 14:45:40.270 CDT
+event analysis========
+Begin processing the 739th record. Run 181913, Event 365599, LumiSection 10 at 28-Mar-2014 14:45:52.198 CDT
+event analysis========
+Begin processing the 740th record. Run 181913, Event 366423, LumiSection 10 at 28-Mar-2014 14:45:53.879 CDT
+event analysis========
+Begin processing the 741st record. Run 181913, Event 368167, LumiSection 10 at 28-Mar-2014 14:45:58.066 CDT
+event analysis========
+Begin processing the 742nd record. Run 181913, Event 365615, LumiSection 10 at 28-Mar-2014 14:46:01.625 CDT
+event analysis========
+Begin processing the 743rd record. Run 181913, Event 362055, LumiSection 10 at 28-Mar-2014 14:46:03.056 CDT
+event analysis========
+Begin processing the 744th record. Run 181913, Event 368183, LumiSection 10 at 28-Mar-2014 14:46:08.093 CDT
+event analysis========
+Begin processing the 745th record. Run 181913, Event 365799, LumiSection 10 at 28-Mar-2014 14:46:10.164 CDT
+event analysis========
+Begin processing the 746th record. Run 181913, Event 355663, LumiSection 10 at 28-Mar-2014 14:46:13.294 CDT
+event analysis========
+Begin processing the 747th record. Run 181913, Event 366671, LumiSection 10 at 28-Mar-2014 14:46:22.743 CDT
+event analysis========
+Begin processing the 748th record. Run 181913, Event 359911, LumiSection 10 at 28-Mar-2014 14:46:27.006 CDT
+event analysis========
+Begin processing the 749th record. Run 181913, Event 353743, LumiSection 10 at 28-Mar-2014 14:46:38.628 CDT
+event analysis========
+Begin processing the 750th record. Run 181913, Event 363503, LumiSection 10 at 28-Mar-2014 14:46:57.547 CDT
+event analysis========
+Begin processing the 751st record. Run 181913, Event 364727, LumiSection 10 at 28-Mar-2014 14:47:05.099 CDT
+event analysis========
+Begin processing the 752nd record. Run 181913, Event 369751, LumiSection 10 at 28-Mar-2014 14:47:11.881 CDT
+event analysis========
+Begin processing the 753rd record. Run 181913, Event 361759, LumiSection 10 at 28-Mar-2014 14:47:16.355 CDT
+event analysis========
+Begin processing the 754th record. Run 181913, Event 362407, LumiSection 10 at 28-Mar-2014 14:47:28.150 CDT
+event analysis========
+Begin processing the 755th record. Run 181913, Event 364439, LumiSection 10 at 28-Mar-2014 14:47:38.125 CDT
+event analysis========
+Begin processing the 756th record. Run 181913, Event 356111, LumiSection 10 at 28-Mar-2014 14:47:55.386 CDT
+event analysis========
+Begin processing the 757th record. Run 181913, Event 367743, LumiSection 10 at 28-Mar-2014 14:48:14.890 CDT
+event analysis========
+Begin processing the 758th record. Run 181913, Event 361719, LumiSection 10 at 28-Mar-2014 14:48:27.232 CDT
+event analysis========
+Begin processing the 759th record. Run 181913, Event 367983, LumiSection 10 at 28-Mar-2014 14:48:45.702 CDT
+event analysis========
+Begin processing the 760th record. Run 181913, Event 371215, LumiSection 10 at 28-Mar-2014 14:49:02.612 CDT
+event analysis========
+Begin processing the 761st record. Run 181913, Event 336832, LumiSection 10 at 28-Mar-2014 14:49:23.249 CDT
+event analysis========
+Begin processing the 762nd record. Run 181913, Event 334928, LumiSection 10 at 28-Mar-2014 14:49:23.714 CDT
+event analysis========
+Begin processing the 763rd record. Run 181913, Event 335312, LumiSection 10 at 28-Mar-2014 14:49:30.961 CDT
+event analysis========
+Begin processing the 764th record. Run 181913, Event 339640, LumiSection 10 at 28-Mar-2014 14:49:33.997 CDT
+event analysis========
+Begin processing the 765th record. Run 181913, Event 334264, LumiSection 10 at 28-Mar-2014 14:49:34.382 CDT
+event analysis========
+Begin processing the 766th record. Run 181913, Event 332232, LumiSection 10 at 28-Mar-2014 14:49:41.855 CDT
+event analysis========
+Begin processing the 767th record. Run 181913, Event 336472, LumiSection 10 at 28-Mar-2014 14:49:51.992 CDT
+event analysis========
+Begin processing the 768th record. Run 181913, Event 343696, LumiSection 10 at 28-Mar-2014 14:49:58.540 CDT
+event analysis========
+Begin processing the 769th record. Run 181913, Event 340280, LumiSection 10 at 28-Mar-2014 14:49:58.565 CDT
+event analysis========
+Begin processing the 770th record. Run 181913, Event 334424, LumiSection 10 at 28-Mar-2014 14:50:00.550 CDT
+event analysis========
+Begin processing the 771st record. Run 181913, Event 342992, LumiSection 10 at 28-Mar-2014 14:50:10.367 CDT
+event analysis========
+Begin processing the 772nd record. Run 181913, Event 340248, LumiSection 10 at 28-Mar-2014 14:50:12.763 CDT
+event analysis========
+Begin processing the 773rd record. Run 181913, Event 343880, LumiSection 10 at 28-Mar-2014 14:50:14.203 CDT
+event analysis========
+Begin processing the 774th record. Run 181913, Event 342200, LumiSection 10 at 28-Mar-2014 14:50:14.508 CDT
+event analysis========
+Begin processing the 775th record. Run 181913, Event 333744, LumiSection 10 at 28-Mar-2014 14:50:15.883 CDT
+event analysis========
+Begin processing the 776th record. Run 181913, Event 340944, LumiSection 10 at 28-Mar-2014 14:50:31.008 CDT
+event analysis========
+Begin processing the 777th record. Run 181913, Event 346984, LumiSection 10 at 28-Mar-2014 14:50:35.330 CDT
+event analysis========
+Begin processing the 778th record. Run 181913, Event 348144, LumiSection 10 at 28-Mar-2014 14:50:39.006 CDT
+event analysis========
+Begin processing the 779th record. Run 181913, Event 347864, LumiSection 10 at 28-Mar-2014 14:50:40.298 CDT
+event analysis========
+Begin processing the 780th record. Run 181913, Event 345472, LumiSection 10 at 28-Mar-2014 14:50:41.582 CDT
+event analysis========
+Begin processing the 781st record. Run 181913, Event 344064, LumiSection 10 at 28-Mar-2014 14:50:48.724 CDT
+event analysis========
+Begin processing the 782nd record. Run 181913, Event 349912, LumiSection 10 at 28-Mar-2014 14:50:56.410 CDT
+event analysis========
+Begin processing the 783rd record. Run 181913, Event 346008, LumiSection 10 at 28-Mar-2014 14:50:57.418 CDT
+event analysis========
+Begin processing the 784th record. Run 181913, Event 332696, LumiSection 10 at 28-Mar-2014 14:51:05.949 CDT
+event analysis========
+Begin processing the 785th record. Run 181913, Event 354584, LumiSection 10 at 28-Mar-2014 14:51:31.157 CDT
+event analysis========
+Begin processing the 786th record. Run 181913, Event 341136, LumiSection 10 at 28-Mar-2014 14:51:31.253 CDT
+event analysis========
+Begin processing the 787th record. Run 181913, Event 345904, LumiSection 10 at 28-Mar-2014 14:51:42.079 CDT
+event analysis========
+Begin processing the 788th record. Run 181913, Event 351336, LumiSection 10 at 28-Mar-2014 14:51:52.067 CDT
+event analysis========
+Begin processing the 789th record. Run 181913, Event 340528, LumiSection 10 at 28-Mar-2014 14:52:03.788 CDT
+event analysis========
+Begin processing the 790th record. Run 181913, Event 354704, LumiSection 10 at 28-Mar-2014 14:52:17.248 CDT
+event analysis========
+Begin processing the 791st record. Run 181913, Event 348064, LumiSection 10 at 28-Mar-2014 14:52:17.276 CDT
+event analysis========
+Begin processing the 792nd record. Run 181913, Event 348200, LumiSection 10 at 28-Mar-2014 14:52:23.548 CDT
+event analysis========
+Begin processing the 793rd record. Run 181913, Event 353736, LumiSection 10 at 28-Mar-2014 14:52:31.529 CDT
+event analysis========
+Begin processing the 794th record. Run 181913, Event 333984, LumiSection 10 at 28-Mar-2014 14:52:33.953 CDT
+event analysis========
+Begin processing the 795th record. Run 181913, Event 343344, LumiSection 10 at 28-Mar-2014 14:52:54.598 CDT
+event analysis========
+Begin processing the 796th record. Run 181913, Event 347320, LumiSection 10 at 28-Mar-2014 14:53:08.568 CDT
+event analysis========
+Begin processing the 797th record. Run 181913, Event 345544, LumiSection 10 at 28-Mar-2014 14:53:18.205 CDT
+event analysis========
+Begin processing the 798th record. Run 181913, Event 350152, LumiSection 10 at 28-Mar-2014 14:53:29.051 CDT
+event analysis========
+Begin processing the 799th record. Run 181913, Event 346776, LumiSection 10 at 28-Mar-2014 14:53:39.133 CDT
+event analysis========
+Begin processing the 800th record. Run 181913, Event 362200, LumiSection 10 at 28-Mar-2014 14:53:58.905 CDT
+event analysis========
+28-Mar-2014 14:53:58 CDT  Closed file file:/uscms_data/d3/jiansun/data/2011reco_highpt_FC6D2776-DF12-E111-82F2-E0CB4E4408D2.root
+==>HFTree: endJob():
+UID        PID  PPID  C    SZ   RSS PSR STIME TTY      STAT   TIME CMD
+jiansun   3729 20999 98 279605 740312 2 13:10 pts/21   SN   102:06 cmsRun runForest_44X_reduced_d0dstar_work.py
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostEndRun                        
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3

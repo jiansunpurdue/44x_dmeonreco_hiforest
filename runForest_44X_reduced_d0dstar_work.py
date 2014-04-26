@@ -1,0 +1,175 @@
+import FWCore.ParameterSet.Config as cms
+import PhysicsTools.PythonAnalysis.LumiList as LumiList
+
+process = cms.Process('hiForestAna2011')
+
+#process.options = cms.untracked.PSet(
+#   wantSummary = cms.untracked.bool(True)
+#)
+
+
+hiTrackQuality = "highPurity"              # iterative tracks
+#hiTrackQuality = "highPuritySetWithPV"    # calo-matched tracks
+
+doElectrons = False
+doRegitForBjets = False
+
+
+#####################################################################################
+
+process.load("CmsHi.JetAnalysis.HiForest_cff")
+process.HiForest.inputLines = cms.vstring("HiForest V2",
+                                          "PF : iterative tracks",
+                                          "EP Flattening OFF",
+                                          "Electrons OFF",
+                                          "Preshower OFF"
+                                          )
+
+#####################################################################################
+# Input source
+#####################################################################################
+
+process.source = cms.Source("PoolSource",
+ duplicateCheckMode = cms.untracked.string("noDuplicateCheck"),
+    fileNames = cms.untracked.vstring(
+	                      "file:/uscms_data/d3/jiansun/data/2011reco_highpt_FC6D2776-DF12-E111-82F2-E0CB4E4408D2.root"
+#						  "file:/uscms_data/d3/jiansun/data/2011reco_HIMinBiasUPC_FC6D2776-DF12-E111-82F2-E0CB4E4408D2.root"
+						 ))
+
+
+
+# DATA EMULATION
+process.source.inputCommands = cms.untracked.vstring("keep *",
+                                                     "drop *_hiSignal*_*_*",
+                                                     "drop *_*GenJet*_*_*",
+                                                     "drop *_*GenPar*_*_*",
+                                                     "drop *_gen*_*_*"
+                                                     )
+process.source.dropDescendantsOfDroppedBranches=cms.untracked.bool(False)
+
+
+
+# Number of events we want to process, -1 = all events
+process.maxEvents = cms.untracked.PSet(
+            input = cms.untracked.int32(-1))
+
+#process.Timing = cms.Service("Timing")
+
+process.source.lumisToProcess = LumiList.LumiList(filename = './Cert_181530-183126_HI7TeV_PromptReco_Collisions11_JSON.txt').getVLuminosityBlockRange()
+
+#####################################################################################
+# Load some general stuff
+#####################################################################################
+
+process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
+process.load('Configuration.StandardSequences.Services_cff')
+process.load('Configuration.StandardSequences.GeometryExtended_cff')
+process.load('Configuration.StandardSequences.MagneticField_38T_cff')
+process.load('SimGeneral.MixingModule.mixNoPU_cfi')
+process.load('Configuration.StandardSequences.Digi_cff')
+process.load('Configuration.StandardSequences.SimL1Emulator_cff')
+process.load('Configuration.StandardSequences.DigiToRaw_cff')
+process.load('Configuration.StandardSequences.RawToDigi_cff')
+process.load('Configuration.StandardSequences.ReconstructionHeavyIons_cff')
+process.load('FWCore.MessageService.MessageLogger_cfi')
+process.load('RecoLocalTracker.SiPixelRecHits.PixelCPEESProducers_cff')
+#process.load('MitHig.PixelTrackletAnalyzer.pixelHitAnalyzer_cfi')
+
+# Data Global Tag 44x 
+process.GlobalTag.globaltag = 'GR_R_44_V15::All'
+#process.GlobalTag.globaltag = 'GR_R_44_V10::All'
+#process.GlobalTag.globaltag = 'GR_P_V27A::All'
+
+# process.Timing = cms.Service("Timing")
+
+# MC Global Tag 44x 
+#process.GlobalTag.globaltag = 'STARTHI44_V7::All'
+
+# load centrality
+from CmsHi.Analysis2010.CommonFunctions_cff import *
+overrideCentrality(process)
+process.HeavyIonGlobalParameters = cms.PSet(
+	centralityVariable = cms.string("HFtowers"),
+	centralitySrc = cms.InputTag("hiCentrality")
+	)
+process.hiCentrality.pixelBarrelOnly = False
+#process.load("CmsHi.JetAnalysis.RandomCones_cff")
+
+# EcalSeverityLevel ES Producer
+process.load("RecoLocalCalo/EcalRecAlgos/EcalSeverityLevelESProducer_cfi")
+process.load("RecoEcal.EgammaCoreTools.EcalNextToDeadChannelESProducer_cff")
+
+#####################################################################################
+# Define tree output
+#####################################################################################
+
+process.TFileService = cms.Service("TFileService",
+                                  fileName=cms.string("forest_data_d0dstar_highpt.root"))
+
+#####################################################################################
+# Additional Reconstruction and Analysis
+#####################################################################################
+
+# Define Analysis sequencues
+process.load('CmsHi.JetAnalysis.EventSelection_cff')
+#from HeavyIonsAnalysis.Configuration.collisionEventSelection_cff import *
+
+# Event tree
+process.load("CmsHi/HiHLTAlgos.hievtanalyzer_cfi")
+# Not working for the moment..
+#process.hiEvtAnalyzer.doMC = cms.bool(True)
+process.hiEvtAnalyzer.doEvtPlane = cms.bool(True)
+
+#Commented by Yen-Jie
+#process.hiPixelAdaptiveVertex.useBeamConstraint = False
+###########################################
+
+
+process.ana_step          = cms.Path(process.hiEvtAnalyzer)
+
+process.pcollisionEventSelection = cms.Path(process.collisionEventSelection)
+process.pHBHENoiseFilter = cms.Path( process.HBHENoiseFilter )
+process.phiEcalRecHitSpikeFilter = cms.Path(process.hiEcalRecHitSpikeFilter )
+
+# Customization
+
+process.load('L1Trigger.Configuration.L1Extra_cff')
+process.load('CmsHi.HiHLTAlgos.hltanalysis_cff')
+
+process.hltanalysis.hltresults = cms.InputTag("TriggerResults","","HLT")
+process.hltAna = cms.Path(process.hltanalysis)
+process.pAna = cms.EndPath(process.skimanalysis)
+
+
+process.load('CmsHi.JetAnalysis.rechitanalyzer_cfi') 
+process.rechitAna = cms.Path(process.rechitanalyzer+process.pfTowers)
+
+process.tree = cms.EDAnalyzer(
+    "HFTree",
+    verbose      = cms.untracked.int32(1),
+    printFrequency = cms.untracked.int32(500),
+    requireCand  =  cms.untracked.bool(False)
+    )
+
+# ----------------------------------------------------------------------
+process.load("Configuration.StandardSequences.Reconstruction_cff")
+process.load("UserCode.OpenHF.HFRecoStuff_cff")
+process.load("UserCode.OpenHF.HFCharm_cff")
+
+
+# ----------------------------------------------------------------------
+
+# ----------------------------------------------------------------------
+process.p = cms.Path(
+    process.recoStuffSequence*
+	process.d0Sequence*
+#	process.dstarSequence*
+#    process.d0dstarSequence*
+    process.tree
+)
+
+
+
+process.schedule = cms.Schedule(process.pcollisionEventSelection,process.pHBHENoiseFilter,process.phiEcalRecHitSpikeFilter,process.ana_step,process.hltAna,process.pAna,process.p)
+#process.schedule = cms.Schedule(process.pcollisionEventSelection,process.pHBHENoiseFilter,process.ana_step,process.hltAna,process.pAna)
+########### random number seed

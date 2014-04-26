@@ -1,0 +1,1146 @@
+17-Dec-2013 21:10:10 CET  Initiating request to open file file:/afs/cern.ch/work/j/jisun/public/2011reco_highpt.root
+17-Dec-2013 21:10:11 CET  Successfully opened file file:/afs/cern.ch/work/j/jisun/public/2011reco_highpt.root
+ jet collection : InputTag:  label = icPu5patJets, instance = 
+ jet collection : InputTag:  label = akPu1PFpatJets, instance = 
+ jet collection : InputTag:  label = akPu2PFpatJets, instance = 
+ jet collection : InputTag:  label = akPu3PFpatJets, instance = 
+ jet collection : InputTag:  label = akPu4PFpatJets, instance = 
+ jet collection : InputTag:  label = akPu5PFpatJets, instance = 
+ jet collection : InputTag:  label = akPu6PFpatJets, instance = 
+ jet collection : InputTag:  label = akPu1CalopatJets, instance = 
+ jet collection : InputTag:  label = akPu2CalopatJets, instance = 
+ jet collection : InputTag:  label = akPu3CalopatJets, instance = 
+ jet collection : InputTag:  label = akPu4CalopatJets, instance = 
+ jet collection : InputTag:  label = akPu5CalopatJets, instance = 
+ jet collection : InputTag:  label = akPu6CalopatJets, instance = 
+ jet collection : InputTag:  label = ak1PFpatJets, instance = 
+ jet collection : InputTag:  label = ak2PFpatJets, instance = 
+ jet collection : InputTag:  label = ak3PFpatJets, instance = 
+ jet collection : InputTag:  label = ak4PFpatJets, instance = 
+ jet collection : InputTag:  label = ak5PFpatJets, instance = 
+ jet collection : InputTag:  label = ak6PFpatJets, instance = 
+ jet collection : InputTag:  label = ak1CalopatJets, instance = 
+ jet collection : InputTag:  label = ak2CalopatJets, instance = 
+ jet collection : InputTag:  label = ak3CalopatJets, instance = 
+ jet collection : InputTag:  label = ak4CalopatJets, instance = 
+ jet collection : InputTag:  label = ak5CalopatJets, instance = 
+ jet collection : InputTag:  label = ak6CalopatJets, instance = 
+ Beginning HLTBitAnalyzer Analysis 
+Begin processing the 1st record. Run 181969, Event 34206081, LumiSection 842 at 17-Dec-2013 21:10:28.653 CET
+----- Begin Fatal Exception 17-Dec-2013 21:10:28 CET-----------------------
+An exception of category 'ProductNotFound' occurred while
+   [0] Processing run: 181969 lumi: 842 event: 34206081
+   [1] Running path 'reco_extra'
+   [2] Calling event method for module TrackSelector/'hiTracks'
+Exception Message:
+Principal::getByLabel: Found zero products matching all criteria
+Looking for type: std::vector<reco::Track>
+Looking for module label: hiGeneralCaloMatchedTracks
+Looking for productInstanceName: 
+
+   Additional Info:
+      [a] If you wish to continue processing events after a ProductNotFound exception,
+add "SkipEvent = cms.untracked.vstring('ProductNotFound')" to the "options" PSet in the configuration.
+
+----- End Fatal Exception -------------------------------------------------
+17-Dec-2013 21:10:28 CET  Closed file file:/afs/cern.ch/work/j/jisun/public/2011reco_highpt.root
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 1 passed = 0 failed = 1
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#        Run     Passed     Failed      Error Name
+TrigReport     1    0          1          0          0          1 reco_extra
+TrigReport     1    1          0          0          0          0 reco_extra_jet
+TrigReport     1    2          0          0          0          0 pat_step
+TrigReport     1    3          0          0          0          0 ana_step
+TrigReport     1    4          0          0          0          0 pcollisionEventSelection
+TrigReport     1    5          0          0          0          0 pHBHENoiseFilter
+TrigReport     1    6          0          0          0          0 phiEcalRecHitSpikeFilter
+TrigReport     1    7          0          0          0          0 hltAna
+TrigReport     1    8          0          0          0          0 rechitAna
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#        Run     Passed     Failed      Error Name
+TrigReport     0    0          0          0          0          0 pAna
+
+TrigReport ---------- Modules in Path: reco_extra ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          1          0          0          1 hiTracks
+TrigReport     1    0          0          0          0          0 hiCaloTracks
+TrigReport     1    0          0          0          0          0 hiMergedTracks
+TrigReport     1    0          0          0          0          0 towerMakerPF
+TrigReport     1    0          0          0          0          0 particleFlowRecHitECAL
+TrigReport     1    0          0          0          0          0 particleFlowClusterECAL
+TrigReport     1    0          0          0          0          0 particleFlowRecHitHCAL
+TrigReport     1    0          0          0          0          0 particleFlowClusterHCAL
+TrigReport     1    0          0          0          0          0 particleFlowClusterHFHAD
+TrigReport     1    0          0          0          0          0 particleFlowClusterHFEM
+TrigReport     1    0          0          0          0          0 particleFlowRecHitPS
+TrigReport     1    0          0          0          0          0 particleFlowClusterPS
+TrigReport     1    0          0          0          0          0 pfTrack
+TrigReport     1    0          0          0          0          0 pfTrackElec
+TrigReport     1    0          0          0          0          0 particleFlowBlock
+TrigReport     1    0          0          0          0          0 particleFlowTmp
+TrigReport     1    0          0          0          0          0 iterativeConePu5CaloJets
+TrigReport     1    0          0          0          0          0 PFTowers
+TrigReport     1    0          0          0          0          0 l1extraParticles
+
+TrigReport ---------- Modules in Path: reco_extra_jet ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    1          0          0          0          0 iterativeConePu5CaloJets
+TrigReport     1    1          0          0          0          0 iterativeCone5CaloJets
+TrigReport     1    1          0          0          0          0 akPu1PFJets
+TrigReport     1    1          0          0          0          0 akPu2PFJets
+TrigReport     1    1          0          0          0          0 akPu3PFJets
+TrigReport     1    1          0          0          0          0 akPu4PFJets
+TrigReport     1    1          0          0          0          0 akPu5PFJets
+TrigReport     1    1          0          0          0          0 akPu6PFJets
+TrigReport     1    1          0          0          0          0 ak1PFJets
+TrigReport     1    1          0          0          0          0 ak2PFJets
+TrigReport     1    1          0          0          0          0 ak3PFJets
+TrigReport     1    1          0          0          0          0 ak4PFJets
+TrigReport     1    1          0          0          0          0 ak5PFJets
+TrigReport     1    1          0          0          0          0 ak6PFJets
+TrigReport     1    1          0          0          0          0 akPu1CaloJets
+TrigReport     1    1          0          0          0          0 akPu2CaloJets
+TrigReport     1    1          0          0          0          0 akPu3CaloJets
+TrigReport     1    1          0          0          0          0 akPu4CaloJets
+TrigReport     1    1          0          0          0          0 akPu5CaloJets
+TrigReport     1    1          0          0          0          0 akPu6CaloJets
+TrigReport     1    1          0          0          0          0 ak1CaloJets
+TrigReport     1    1          0          0          0          0 ak2CaloJets
+TrigReport     1    1          0          0          0          0 ak3CaloJets
+TrigReport     1    1          0          0          0          0 ak4CaloJets
+TrigReport     1    1          0          0          0          0 ak5CaloJets
+TrigReport     1    1          0          0          0          0 ak6CaloJets
+TrigReport     1    1          0          0          0          0 islandBasicClusters
+TrigReport     1    1          0          0          0          0 islandSuperClusters
+TrigReport     1    1          0          0          0          0 correctedIslandBarrelSuperClusters
+TrigReport     1    1          0          0          0          0 correctedIslandEndcapSuperClusters
+TrigReport     1    1          0          0          0          0 cleanedHybridSuperClusters
+TrigReport     1    1          0          0          0          0 uncleanedHybridSuperClusters
+TrigReport     1    1          0          0          0          0 hybridSuperClusters
+TrigReport     1    1          0          0          0          0 correctedHybridSuperClusters
+TrigReport     1    1          0          0          0          0 uncleanedOnlyCorrectedHybridSuperClusters
+TrigReport     1    1          0          0          0          0 multi5x5BasicClustersCleaned
+TrigReport     1    1          0          0          0          0 multi5x5SuperClustersCleaned
+TrigReport     1    1          0          0          0          0 multi5x5BasicClustersUncleaned
+TrigReport     1    1          0          0          0          0 multi5x5SuperClustersUncleaned
+TrigReport     1    1          0          0          0          0 multi5x5SuperClusters
+TrigReport     1    1          0          0          0          0 multi5x5SuperClustersWithPreshower
+TrigReport     1    1          0          0          0          0 correctedMulti5x5SuperClustersWithPreshower
+TrigReport     1    1          0          0          0          0 multi5x5PreshowerClusterShape
+TrigReport     1    1          0          0          0          0 uncleanedOnlyMulti5x5SuperClustersWithPreshower
+TrigReport     1    1          0          0          0          0 uncleanedOnlyCorrectedMulti5x5SuperClustersWithPreshower
+TrigReport     1    1          0          0          0          0 correctedEndcapSuperClustersWithPreshower
+TrigReport     1    1          0          0          0          0 preshowerClusterShape
+TrigReport     1    1          0          0          0          0 hiSpikeCleanedSC
+TrigReport     1    1          0          0          0          0 cleanPhotonCore
+TrigReport     1    1          0          0          0          0 cleanPhotons
+TrigReport     1    1          0          0          0          0 goodPhotons
+TrigReport     1    1          0          0          0          0 filterGoodPhotons
+
+TrigReport ---------- Modules in Path: pat_step ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    2          0          0          0          0 icPu5corr
+TrigReport     1    2          0          0          0          0 icPu5patJets
+TrigReport     1    2          0          0          0          0 akPu1PFcorr
+TrigReport     1    2          0          0          0          0 akPu1PFpatJets
+TrigReport     1    2          0          0          0          0 akPu2PFcorr
+TrigReport     1    2          0          0          0          0 akPu2PFpatJets
+TrigReport     1    2          0          0          0          0 akPu3PFcorr
+TrigReport     1    2          0          0          0          0 akPu3PFpatJets
+TrigReport     1    2          0          0          0          0 akPu4PFcorr
+TrigReport     1    2          0          0          0          0 akPu4PFpatJets
+TrigReport     1    2          0          0          0          0 akPu5PFcorr
+TrigReport     1    2          0          0          0          0 akPu5PFpatJets
+TrigReport     1    2          0          0          0          0 akPu6PFcorr
+TrigReport     1    2          0          0          0          0 akPu6PFpatJets
+TrigReport     1    2          0          0          0          0 akPu1Calocorr
+TrigReport     1    2          0          0          0          0 akPu1CalopatJets
+TrigReport     1    2          0          0          0          0 akPu2Calocorr
+TrigReport     1    2          0          0          0          0 akPu2CalopatJets
+TrigReport     1    2          0          0          0          0 akPu3Calocorr
+TrigReport     1    2          0          0          0          0 akPu3CalopatJets
+TrigReport     1    2          0          0          0          0 akPu4Calocorr
+TrigReport     1    2          0          0          0          0 akPu4CalopatJets
+TrigReport     1    2          0          0          0          0 akPu5Calocorr
+TrigReport     1    2          0          0          0          0 akPu5CalopatJets
+TrigReport     1    2          0          0          0          0 akPu6Calocorr
+TrigReport     1    2          0          0          0          0 akPu6CalopatJets
+TrigReport     1    2          0          0          0          0 ak1PFcorr
+TrigReport     1    2          0          0          0          0 ak1PFpatJets
+TrigReport     1    2          0          0          0          0 ak2PFcorr
+TrigReport     1    2          0          0          0          0 ak2PFpatJets
+TrigReport     1    2          0          0          0          0 ak3PFcorr
+TrigReport     1    2          0          0          0          0 ak3PFpatJets
+TrigReport     1    2          0          0          0          0 ak4PFcorr
+TrigReport     1    2          0          0          0          0 ak4PFpatJets
+TrigReport     1    2          0          0          0          0 ak5PFcorr
+TrigReport     1    2          0          0          0          0 ak5PFpatJets
+TrigReport     1    2          0          0          0          0 ak6PFcorr
+TrigReport     1    2          0          0          0          0 ak6PFpatJets
+TrigReport     1    2          0          0          0          0 ak1Calocorr
+TrigReport     1    2          0          0          0          0 ak1CalopatJets
+TrigReport     1    2          0          0          0          0 ak2Calocorr
+TrigReport     1    2          0          0          0          0 ak2CalopatJets
+TrigReport     1    2          0          0          0          0 ak3Calocorr
+TrigReport     1    2          0          0          0          0 ak3CalopatJets
+TrigReport     1    2          0          0          0          0 ak4Calocorr
+TrigReport     1    2          0          0          0          0 ak4CalopatJets
+TrigReport     1    2          0          0          0          0 ak5Calocorr
+TrigReport     1    2          0          0          0          0 ak5CalopatJets
+TrigReport     1    2          0          0          0          0 ak6Calocorr
+TrigReport     1    2          0          0          0          0 ak6CalopatJets
+TrigReport     1    2          0          0          0          0 isoCC1
+TrigReport     1    2          0          0          0          0 isoCC2
+TrigReport     1    2          0          0          0          0 isoCC3
+TrigReport     1    2          0          0          0          0 isoCC4
+TrigReport     1    2          0          0          0          0 isoCC5
+TrigReport     1    2          0          0          0          0 isoCR1
+TrigReport     1    2          0          0          0          0 isoCR2
+TrigReport     1    2          0          0          0          0 isoCR3
+TrigReport     1    2          0          0          0          0 isoCR4
+TrigReport     1    2          0          0          0          0 isoCR5
+TrigReport     1    2          0          0          0          0 isoT11
+TrigReport     1    2          0          0          0          0 isoT12
+TrigReport     1    2          0          0          0          0 isoT13
+TrigReport     1    2          0          0          0          0 isoT14
+TrigReport     1    2          0          0          0          0 isoT21
+TrigReport     1    2          0          0          0          0 isoT22
+TrigReport     1    2          0          0          0          0 isoT23
+TrigReport     1    2          0          0          0          0 isoT24
+TrigReport     1    2          0          0          0          0 isoT31
+TrigReport     1    2          0          0          0          0 isoT32
+TrigReport     1    2          0          0          0          0 isoT33
+TrigReport     1    2          0          0          0          0 isoT34
+TrigReport     1    2          0          0          0          0 isoT41
+TrigReport     1    2          0          0          0          0 isoT42
+TrigReport     1    2          0          0          0          0 isoT43
+TrigReport     1    2          0          0          0          0 isoT44
+TrigReport     1    2          0          0          0          0 isoDR11
+TrigReport     1    2          0          0          0          0 isoDR12
+TrigReport     1    2          0          0          0          0 isoDR13
+TrigReport     1    2          0          0          0          0 isoDR14
+TrigReport     1    2          0          0          0          0 isoDR21
+TrigReport     1    2          0          0          0          0 isoDR22
+TrigReport     1    2          0          0          0          0 isoDR23
+TrigReport     1    2          0          0          0          0 isoDR24
+TrigReport     1    2          0          0          0          0 isoDR31
+TrigReport     1    2          0          0          0          0 isoDR32
+TrigReport     1    2          0          0          0          0 isoDR33
+TrigReport     1    2          0          0          0          0 isoDR34
+TrigReport     1    2          0          0          0          0 isoDR41
+TrigReport     1    2          0          0          0          0 isoDR42
+TrigReport     1    2          0          0          0          0 isoDR43
+TrigReport     1    2          0          0          0          0 isoDR44
+TrigReport     1    2          0          0          0          0 PhotonIDProd
+TrigReport     1    2          0          0          0          0 interestingEcalDetIdEB
+TrigReport     1    2          0          0          0          0 interestingEcalDetIdEBU
+TrigReport     1    2          0          0          0          0 interestingEcalDetIdEE
+TrigReport     1    2          0          0          0          0 reducedEcalRecHitsEB
+TrigReport     1    2          0          0          0          0 reducedEcalRecHitsEE
+TrigReport     1    2          0          0          0          0 selectDigi
+TrigReport     1    2          0          0          0          0 reducedEcalRecHitsES
+TrigReport     1    2          0          0          0          0 gamIsoDepositTk
+TrigReport     1    2          0          0          0          0 gamIsoDepositEcalFromHits
+TrigReport     1    2          0          0          0          0 gamIsoDepositHcalFromTowers
+TrigReport     1    2          0          0          0          0 gamIsoDepositHcalDepth1FromTowers
+TrigReport     1    2          0          0          0          0 gamIsoDepositHcalDepth2FromTowers
+TrigReport     1    2          0          0          0          0 gamIsoFromDepsTk
+TrigReport     1    2          0          0          0          0 gamIsoFromDepsEcalFromHitsByCrystal
+TrigReport     1    2          0          0          0          0 gamIsoFromDepsHcalFromTowers
+TrigReport     1    2          0          0          0          0 gamIsoFromDepsHcalDepth1FromTowers
+TrigReport     1    2          0          0          0          0 gamIsoFromDepsHcalDepth2FromTowers
+TrigReport     1    2          0          0          0          0 gamIsoDepositTk
+TrigReport     1    2          0          0          0          0 gamIsoFromDepsTk
+TrigReport     1    2          0          0          0          0 gamIsoDepositEcalFromHits
+TrigReport     1    2          0          0          0          0 gamIsoFromDepsEcalFromHits
+TrigReport     1    2          0          0          0          0 gamIsoDepositHcalFromTowers
+TrigReport     1    2          0          0          0          0 gamIsoFromDepsHcalFromTowers
+TrigReport     1    2          0          0          0          0 patPhotons
+TrigReport     1    2          0          0          0          0 selectedPatPhotons
+
+TrigReport ---------- Modules in Path: ana_step ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    3          0          0          0          0 hcalNoise
+TrigReport     1    3          0          0          0          0 icPu5JetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu1PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu2PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu3PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu4PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu5PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu6PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu1CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu2CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu3CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu4CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu5CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 akPu6CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak1PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak2PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak3PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak4PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak5PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak6PFJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak1CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak2CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak3CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak4CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak5CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 ak6CaloJetAnalyzer
+TrigReport     1    3          0          0          0          0 multiPhotonAnalyzer
+TrigReport     1    3          0          0          0          0 anaTrack
+TrigReport     1    3          0          0          0          0 mergedTrack
+TrigReport     1    3          0          0          0          0 pfcandAnalyzer
+TrigReport     1    3          0          0          0          0 met
+TrigReport     1    3          0          0          0          0 anaMET
+TrigReport     1    3          0          0          0          0 muonTree
+TrigReport     1    3          0          0          0          0 hiEvtAnalyzer
+TrigReport     1    3          0          0          0          0 hltMuTree
+TrigReport     1    3          0          0          0          0 HiForest
+
+TrigReport ---------- Modules in Path: pcollisionEventSelection ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    4          0          0          0          0 noBSChalo
+TrigReport     1    4          0          0          0          0 towersAboveThreshold
+TrigReport     1    4          0          0          0          0 hfPosTowers
+TrigReport     1    4          0          0          0          0 hfNegTowers
+TrigReport     1    4          0          0          0          0 hfPosFilter3
+TrigReport     1    4          0          0          0          0 hfNegFilter3
+TrigReport     1    4          0          0          0          0 primaryVertexFilter
+TrigReport     1    4          0          0          0          0 siPixelRecHits
+TrigReport     1    4          0          0          0          0 hltPixelClusterShapeFilter
+
+TrigReport ---------- Modules in Path: pHBHENoiseFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    5          0          0          0          0 HBHENoiseFilter
+
+TrigReport ---------- Modules in Path: phiEcalRecHitSpikeFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    6          0          0          0          0 hiEcalRecHitSpikeFilter
+
+TrigReport ---------- Modules in Path: hltAna ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    7          0          0          0          0 hltanalysis
+
+TrigReport ---------- Modules in Path: rechitAna ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    8          0          0          0          0 rechitanalyzer
+TrigReport     1    8          0          0          0          0 pfTowers
+
+TrigReport ------ Modules in End-Path: pAna ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     0    0          0          0          0          0 skimanalysis
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited        Run     Passed     Failed      Error Name
+TrigReport          1          1          0          0          1 hiTracks
+TrigReport          0          0          0          0          0 hiCaloTracks
+TrigReport          0          0          0          0          0 hiMergedTracks
+TrigReport          0          0          0          0          0 towerMakerPF
+TrigReport          0          0          0          0          0 particleFlowRecHitECAL
+TrigReport          0          0          0          0          0 particleFlowClusterECAL
+TrigReport          0          0          0          0          0 particleFlowRecHitHCAL
+TrigReport          0          0          0          0          0 particleFlowClusterHCAL
+TrigReport          0          0          0          0          0 particleFlowClusterHFHAD
+TrigReport          0          0          0          0          0 particleFlowClusterHFEM
+TrigReport          0          0          0          0          0 particleFlowRecHitPS
+TrigReport          0          0          0          0          0 particleFlowClusterPS
+TrigReport          0          0          0          0          0 pfTrack
+TrigReport          0          0          0          0          0 pfTrackElec
+TrigReport          0          0          0          0          0 particleFlowBlock
+TrigReport          0          0          0          0          0 particleFlowTmp
+TrigReport          0          0          0          0          0 iterativeConePu5CaloJets
+TrigReport          0          0          0          0          0 PFTowers
+TrigReport          0          0          0          0          0 l1extraParticles
+TrigReport          0          0          0          0          0 iterativeCone5CaloJets
+TrigReport          0          0          0          0          0 akPu1PFJets
+TrigReport          0          0          0          0          0 akPu2PFJets
+TrigReport          0          0          0          0          0 akPu3PFJets
+TrigReport          0          0          0          0          0 akPu4PFJets
+TrigReport          0          0          0          0          0 akPu5PFJets
+TrigReport          0          0          0          0          0 akPu6PFJets
+TrigReport          0          0          0          0          0 ak1PFJets
+TrigReport          0          0          0          0          0 ak2PFJets
+TrigReport          0          0          0          0          0 ak3PFJets
+TrigReport          0          0          0          0          0 ak4PFJets
+TrigReport          0          0          0          0          0 ak5PFJets
+TrigReport          0          0          0          0          0 ak6PFJets
+TrigReport          0          0          0          0          0 akPu1CaloJets
+TrigReport          0          0          0          0          0 akPu2CaloJets
+TrigReport          0          0          0          0          0 akPu3CaloJets
+TrigReport          0          0          0          0          0 akPu4CaloJets
+TrigReport          0          0          0          0          0 akPu5CaloJets
+TrigReport          0          0          0          0          0 akPu6CaloJets
+TrigReport          0          0          0          0          0 ak1CaloJets
+TrigReport          0          0          0          0          0 ak2CaloJets
+TrigReport          0          0          0          0          0 ak3CaloJets
+TrigReport          0          0          0          0          0 ak4CaloJets
+TrigReport          0          0          0          0          0 ak5CaloJets
+TrigReport          0          0          0          0          0 ak6CaloJets
+TrigReport          0          0          0          0          0 islandBasicClusters
+TrigReport          0          0          0          0          0 islandSuperClusters
+TrigReport          0          0          0          0          0 correctedIslandBarrelSuperClusters
+TrigReport          0          0          0          0          0 correctedIslandEndcapSuperClusters
+TrigReport          0          0          0          0          0 cleanedHybridSuperClusters
+TrigReport          0          0          0          0          0 uncleanedHybridSuperClusters
+TrigReport          0          0          0          0          0 hybridSuperClusters
+TrigReport          0          0          0          0          0 correctedHybridSuperClusters
+TrigReport          0          0          0          0          0 uncleanedOnlyCorrectedHybridSuperClusters
+TrigReport          0          0          0          0          0 multi5x5BasicClustersCleaned
+TrigReport          0          0          0          0          0 multi5x5SuperClustersCleaned
+TrigReport          0          0          0          0          0 multi5x5BasicClustersUncleaned
+TrigReport          0          0          0          0          0 multi5x5SuperClustersUncleaned
+TrigReport          0          0          0          0          0 multi5x5SuperClusters
+TrigReport          0          0          0          0          0 multi5x5SuperClustersWithPreshower
+TrigReport          0          0          0          0          0 correctedMulti5x5SuperClustersWithPreshower
+TrigReport          0          0          0          0          0 multi5x5PreshowerClusterShape
+TrigReport          0          0          0          0          0 uncleanedOnlyMulti5x5SuperClustersWithPreshower
+TrigReport          0          0          0          0          0 uncleanedOnlyCorrectedMulti5x5SuperClustersWithPreshower
+TrigReport          0          0          0          0          0 correctedEndcapSuperClustersWithPreshower
+TrigReport          0          0          0          0          0 preshowerClusterShape
+TrigReport          0          0          0          0          0 hiSpikeCleanedSC
+TrigReport          0          0          0          0          0 cleanPhotonCore
+TrigReport          0          0          0          0          0 cleanPhotons
+TrigReport          0          0          0          0          0 goodPhotons
+TrigReport          0          0          0          0          0 filterGoodPhotons
+TrigReport          0          0          0          0          0 icPu5corr
+TrigReport          0          0          0          0          0 icPu5patJets
+TrigReport          0          0          0          0          0 akPu1PFcorr
+TrigReport          0          0          0          0          0 akPu1PFpatJets
+TrigReport          0          0          0          0          0 akPu2PFcorr
+TrigReport          0          0          0          0          0 akPu2PFpatJets
+TrigReport          0          0          0          0          0 akPu3PFcorr
+TrigReport          0          0          0          0          0 akPu3PFpatJets
+TrigReport          0          0          0          0          0 akPu4PFcorr
+TrigReport          0          0          0          0          0 akPu4PFpatJets
+TrigReport          0          0          0          0          0 akPu5PFcorr
+TrigReport          0          0          0          0          0 akPu5PFpatJets
+TrigReport          0          0          0          0          0 akPu6PFcorr
+TrigReport          0          0          0          0          0 akPu6PFpatJets
+TrigReport          0          0          0          0          0 akPu1Calocorr
+TrigReport          0          0          0          0          0 akPu1CalopatJets
+TrigReport          0          0          0          0          0 akPu2Calocorr
+TrigReport          0          0          0          0          0 akPu2CalopatJets
+TrigReport          0          0          0          0          0 akPu3Calocorr
+TrigReport          0          0          0          0          0 akPu3CalopatJets
+TrigReport          0          0          0          0          0 akPu4Calocorr
+TrigReport          0          0          0          0          0 akPu4CalopatJets
+TrigReport          0          0          0          0          0 akPu5Calocorr
+TrigReport          0          0          0          0          0 akPu5CalopatJets
+TrigReport          0          0          0          0          0 akPu6Calocorr
+TrigReport          0          0          0          0          0 akPu6CalopatJets
+TrigReport          0          0          0          0          0 ak1PFcorr
+TrigReport          0          0          0          0          0 ak1PFpatJets
+TrigReport          0          0          0          0          0 ak2PFcorr
+TrigReport          0          0          0          0          0 ak2PFpatJets
+TrigReport          0          0          0          0          0 ak3PFcorr
+TrigReport          0          0          0          0          0 ak3PFpatJets
+TrigReport          0          0          0          0          0 ak4PFcorr
+TrigReport          0          0          0          0          0 ak4PFpatJets
+TrigReport          0          0          0          0          0 ak5PFcorr
+TrigReport          0          0          0          0          0 ak5PFpatJets
+TrigReport          0          0          0          0          0 ak6PFcorr
+TrigReport          0          0          0          0          0 ak6PFpatJets
+TrigReport          0          0          0          0          0 ak1Calocorr
+TrigReport          0          0          0          0          0 ak1CalopatJets
+TrigReport          0          0          0          0          0 ak2Calocorr
+TrigReport          0          0          0          0          0 ak2CalopatJets
+TrigReport          0          0          0          0          0 ak3Calocorr
+TrigReport          0          0          0          0          0 ak3CalopatJets
+TrigReport          0          0          0          0          0 ak4Calocorr
+TrigReport          0          0          0          0          0 ak4CalopatJets
+TrigReport          0          0          0          0          0 ak5Calocorr
+TrigReport          0          0          0          0          0 ak5CalopatJets
+TrigReport          0          0          0          0          0 ak6Calocorr
+TrigReport          0          0          0          0          0 ak6CalopatJets
+TrigReport          0          0          0          0          0 isoCC1
+TrigReport          0          0          0          0          0 isoCC2
+TrigReport          0          0          0          0          0 isoCC3
+TrigReport          0          0          0          0          0 isoCC4
+TrigReport          0          0          0          0          0 isoCC5
+TrigReport          0          0          0          0          0 isoCR1
+TrigReport          0          0          0          0          0 isoCR2
+TrigReport          0          0          0          0          0 isoCR3
+TrigReport          0          0          0          0          0 isoCR4
+TrigReport          0          0          0          0          0 isoCR5
+TrigReport          0          0          0          0          0 isoT11
+TrigReport          0          0          0          0          0 isoT12
+TrigReport          0          0          0          0          0 isoT13
+TrigReport          0          0          0          0          0 isoT14
+TrigReport          0          0          0          0          0 isoT21
+TrigReport          0          0          0          0          0 isoT22
+TrigReport          0          0          0          0          0 isoT23
+TrigReport          0          0          0          0          0 isoT24
+TrigReport          0          0          0          0          0 isoT31
+TrigReport          0          0          0          0          0 isoT32
+TrigReport          0          0          0          0          0 isoT33
+TrigReport          0          0          0          0          0 isoT34
+TrigReport          0          0          0          0          0 isoT41
+TrigReport          0          0          0          0          0 isoT42
+TrigReport          0          0          0          0          0 isoT43
+TrigReport          0          0          0          0          0 isoT44
+TrigReport          0          0          0          0          0 isoDR11
+TrigReport          0          0          0          0          0 isoDR12
+TrigReport          0          0          0          0          0 isoDR13
+TrigReport          0          0          0          0          0 isoDR14
+TrigReport          0          0          0          0          0 isoDR21
+TrigReport          0          0          0          0          0 isoDR22
+TrigReport          0          0          0          0          0 isoDR23
+TrigReport          0          0          0          0          0 isoDR24
+TrigReport          0          0          0          0          0 isoDR31
+TrigReport          0          0          0          0          0 isoDR32
+TrigReport          0          0          0          0          0 isoDR33
+TrigReport          0          0          0          0          0 isoDR34
+TrigReport          0          0          0          0          0 isoDR41
+TrigReport          0          0          0          0          0 isoDR42
+TrigReport          0          0          0          0          0 isoDR43
+TrigReport          0          0          0          0          0 isoDR44
+TrigReport          0          0          0          0          0 PhotonIDProd
+TrigReport          0          0          0          0          0 interestingEcalDetIdEB
+TrigReport          0          0          0          0          0 interestingEcalDetIdEBU
+TrigReport          0          0          0          0          0 interestingEcalDetIdEE
+TrigReport          0          0          0          0          0 reducedEcalRecHitsEB
+TrigReport          0          0          0          0          0 reducedEcalRecHitsEE
+TrigReport          0          0          0          0          0 selectDigi
+TrigReport          0          0          0          0          0 reducedEcalRecHitsES
+TrigReport          0          0          0          0          0 gamIsoDepositTk
+TrigReport          0          0          0          0          0 gamIsoDepositEcalFromHits
+TrigReport          0          0          0          0          0 gamIsoDepositHcalFromTowers
+TrigReport          0          0          0          0          0 gamIsoDepositHcalDepth1FromTowers
+TrigReport          0          0          0          0          0 gamIsoDepositHcalDepth2FromTowers
+TrigReport          0          0          0          0          0 gamIsoFromDepsTk
+TrigReport          0          0          0          0          0 gamIsoFromDepsEcalFromHitsByCrystal
+TrigReport          0          0          0          0          0 gamIsoFromDepsHcalFromTowers
+TrigReport          0          0          0          0          0 gamIsoFromDepsHcalDepth1FromTowers
+TrigReport          0          0          0          0          0 gamIsoFromDepsHcalDepth2FromTowers
+TrigReport          0          0          0          0          0 gamIsoFromDepsEcalFromHits
+TrigReport          0          0          0          0          0 patPhotons
+TrigReport          0          0          0          0          0 selectedPatPhotons
+TrigReport          0          0          0          0          0 hcalNoise
+TrigReport          0          0          0          0          0 icPu5JetAnalyzer
+TrigReport          0          0          0          0          0 akPu1PFJetAnalyzer
+TrigReport          0          0          0          0          0 akPu2PFJetAnalyzer
+TrigReport          0          0          0          0          0 akPu3PFJetAnalyzer
+TrigReport          0          0          0          0          0 akPu4PFJetAnalyzer
+TrigReport          0          0          0          0          0 akPu5PFJetAnalyzer
+TrigReport          0          0          0          0          0 akPu6PFJetAnalyzer
+TrigReport          0          0          0          0          0 akPu1CaloJetAnalyzer
+TrigReport          0          0          0          0          0 akPu2CaloJetAnalyzer
+TrigReport          0          0          0          0          0 akPu3CaloJetAnalyzer
+TrigReport          0          0          0          0          0 akPu4CaloJetAnalyzer
+TrigReport          0          0          0          0          0 akPu5CaloJetAnalyzer
+TrigReport          0          0          0          0          0 akPu6CaloJetAnalyzer
+TrigReport          0          0          0          0          0 ak1PFJetAnalyzer
+TrigReport          0          0          0          0          0 ak2PFJetAnalyzer
+TrigReport          0          0          0          0          0 ak3PFJetAnalyzer
+TrigReport          0          0          0          0          0 ak4PFJetAnalyzer
+TrigReport          0          0          0          0          0 ak5PFJetAnalyzer
+TrigReport          0          0          0          0          0 ak6PFJetAnalyzer
+TrigReport          0          0          0          0          0 ak1CaloJetAnalyzer
+TrigReport          0          0          0          0          0 ak2CaloJetAnalyzer
+TrigReport          0          0          0          0          0 ak3CaloJetAnalyzer
+TrigReport          0          0          0          0          0 ak4CaloJetAnalyzer
+TrigReport          0          0          0          0          0 ak5CaloJetAnalyzer
+TrigReport          0          0          0          0          0 ak6CaloJetAnalyzer
+TrigReport          0          0          0          0          0 multiPhotonAnalyzer
+TrigReport          0          0          0          0          0 anaTrack
+TrigReport          0          0          0          0          0 mergedTrack
+TrigReport          0          0          0          0          0 pfcandAnalyzer
+TrigReport          0          0          0          0          0 met
+TrigReport          0          0          0          0          0 anaMET
+TrigReport          0          0          0          0          0 muonTree
+TrigReport          0          0          0          0          0 hiEvtAnalyzer
+TrigReport          0          0          0          0          0 hltMuTree
+TrigReport          0          0          0          0          0 HiForest
+TrigReport          0          0          0          0          0 noBSChalo
+TrigReport          0          0          0          0          0 towersAboveThreshold
+TrigReport          0          0          0          0          0 hfPosTowers
+TrigReport          0          0          0          0          0 hfNegTowers
+TrigReport          0          0          0          0          0 hfPosFilter3
+TrigReport          0          0          0          0          0 hfNegFilter3
+TrigReport          0          0          0          0          0 primaryVertexFilter
+TrigReport          0          0          0          0          0 siPixelRecHits
+TrigReport          0          0          0          0          0 hltPixelClusterShapeFilter
+TrigReport          0          0          0          0          0 HBHENoiseFilter
+TrigReport          0          0          0          0          0 hiEcalRecHitSpikeFilter
+TrigReport          0          0          0          0          0 hltanalysis
+TrigReport          0          0          0          0          0 rechitanalyzer
+TrigReport          0          0          0          0          0 pfTowers
+TrigReport          0          0          0          0          0 TriggerResults
+TrigReport          0          0          0          0          0 skimanalysis
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport CPU/event = 0.002000 Real/event = 0.001342
+
+TimeReport ---------- Path   Summary ---[sec]----
+TimeReport             per event          per path-run 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.001000   0.001071   0.001000   0.001071 reco_extra
+TimeReport   0.000000   0.000000   0.000000   0.000000 reco_extra_jet
+TimeReport   0.000000   0.000000   0.000000   0.000000 pat_step
+TimeReport   0.000000   0.000000   0.000000   0.000000 ana_step
+TimeReport   0.000000   0.000000   0.000000   0.000000 pcollisionEventSelection
+TimeReport   0.000000   0.000000   0.000000   0.000000 pHBHENoiseFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000 phiEcalRecHitSpikeFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000 hltAna
+TimeReport   0.000000   0.000000   0.000000   0.000000 rechitAna
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event          per path-run 
+
+TimeReport -------End-Path   Summary ---[sec]----
+TimeReport             per event       per endpath-run 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 pAna
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event       per endpath-run 
+
+TimeReport ---------- Modules in Path: reco_extra ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.001000   0.000957   0.001000   0.000957 hiTracks
+TimeReport   0.000000   0.000000   0.000000   0.000000 hiCaloTracks
+TimeReport   0.000000   0.000000   0.000000   0.000000 hiMergedTracks
+TimeReport   0.000000   0.000000   0.000000   0.000000 towerMakerPF
+TimeReport   0.000000   0.000000   0.000000   0.000000 particleFlowRecHitECAL
+TimeReport   0.000000   0.000000   0.000000   0.000000 particleFlowClusterECAL
+TimeReport   0.000000   0.000000   0.000000   0.000000 particleFlowRecHitHCAL
+TimeReport   0.000000   0.000000   0.000000   0.000000 particleFlowClusterHCAL
+TimeReport   0.000000   0.000000   0.000000   0.000000 particleFlowClusterHFHAD
+TimeReport   0.000000   0.000000   0.000000   0.000000 particleFlowClusterHFEM
+TimeReport   0.000000   0.000000   0.000000   0.000000 particleFlowRecHitPS
+TimeReport   0.000000   0.000000   0.000000   0.000000 particleFlowClusterPS
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfTrack
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfTrackElec
+TimeReport   0.000000   0.000000   0.000000   0.000000 particleFlowBlock
+TimeReport   0.000000   0.000000   0.000000   0.000000 particleFlowTmp
+TimeReport   0.000000   0.000000   0.000000   0.000000 iterativeConePu5CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 PFTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 l1extraParticles
+
+TimeReport ---------- Modules in Path: reco_extra_jet ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 iterativeConePu5CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 iterativeCone5CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu1PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu2PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu3PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu4PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu5PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu6PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak1PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak2PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak3PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak4PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak5PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak6PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu1CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu2CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu3CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu4CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu5CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu6CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak1CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak2CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak3CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak4CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak5CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak6CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 islandBasicClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000 islandSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000 correctedIslandBarrelSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000 correctedIslandEndcapSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000 cleanedHybridSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000 uncleanedHybridSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000 hybridSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000 correctedHybridSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000 uncleanedOnlyCorrectedHybridSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000 multi5x5BasicClustersCleaned
+TimeReport   0.000000   0.000000   0.000000   0.000000 multi5x5SuperClustersCleaned
+TimeReport   0.000000   0.000000   0.000000   0.000000 multi5x5BasicClustersUncleaned
+TimeReport   0.000000   0.000000   0.000000   0.000000 multi5x5SuperClustersUncleaned
+TimeReport   0.000000   0.000000   0.000000   0.000000 multi5x5SuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000 multi5x5SuperClustersWithPreshower
+TimeReport   0.000000   0.000000   0.000000   0.000000 correctedMulti5x5SuperClustersWithPreshower
+TimeReport   0.000000   0.000000   0.000000   0.000000 multi5x5PreshowerClusterShape
+TimeReport   0.000000   0.000000   0.000000   0.000000 uncleanedOnlyMulti5x5SuperClustersWithPreshower
+TimeReport   0.000000   0.000000   0.000000   0.000000 uncleanedOnlyCorrectedMulti5x5SuperClustersWithPreshower
+TimeReport   0.000000   0.000000   0.000000   0.000000 correctedEndcapSuperClustersWithPreshower
+TimeReport   0.000000   0.000000   0.000000   0.000000 preshowerClusterShape
+TimeReport   0.000000   0.000000   0.000000   0.000000 hiSpikeCleanedSC
+TimeReport   0.000000   0.000000   0.000000   0.000000 cleanPhotonCore
+TimeReport   0.000000   0.000000   0.000000   0.000000 cleanPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 goodPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 filterGoodPhotons
+
+TimeReport ---------- Modules in Path: pat_step ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 icPu5corr
+TimeReport   0.000000   0.000000   0.000000   0.000000 icPu5patJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu1PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu1PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu2PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu2PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu3PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu3PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu4PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu4PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu5PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu5PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu6PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu6PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu1Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu1CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu2Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu2CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu3Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu3CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu4Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu4CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu5Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu5CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu6Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu6CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak1PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak1PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak2PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak2PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak3PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak3PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak4PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak4PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak5PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak5PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak6PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak6PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak1Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak1CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak2Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak2CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak3Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak3CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak4Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak4CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak5Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak5CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak6Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak6CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoCC1
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoCC2
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoCC3
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoCC4
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoCC5
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoCR1
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoCR2
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoCR3
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoCR4
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoCR5
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT11
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT12
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT13
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT14
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT21
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT22
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT23
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT24
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT31
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT32
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT33
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT34
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT41
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT42
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT43
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoT44
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR11
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR12
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR13
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR14
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR21
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR22
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR23
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR24
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR31
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR32
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR33
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR34
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR41
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR42
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR43
+TimeReport   0.000000   0.000000   0.000000   0.000000 isoDR44
+TimeReport   0.000000   0.000000   0.000000   0.000000 PhotonIDProd
+TimeReport   0.000000   0.000000   0.000000   0.000000 interestingEcalDetIdEB
+TimeReport   0.000000   0.000000   0.000000   0.000000 interestingEcalDetIdEBU
+TimeReport   0.000000   0.000000   0.000000   0.000000 interestingEcalDetIdEE
+TimeReport   0.000000   0.000000   0.000000   0.000000 reducedEcalRecHitsEB
+TimeReport   0.000000   0.000000   0.000000   0.000000 reducedEcalRecHitsEE
+TimeReport   0.000000   0.000000   0.000000   0.000000 selectDigi
+TimeReport   0.000000   0.000000   0.000000   0.000000 reducedEcalRecHitsES
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoDepositTk
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoDepositEcalFromHits
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoDepositHcalFromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoDepositHcalDepth1FromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoDepositHcalDepth2FromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsTk
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsEcalFromHitsByCrystal
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsHcalFromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsHcalDepth1FromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsHcalDepth2FromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoDepositTk
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsTk
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoDepositEcalFromHits
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsEcalFromHits
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoDepositHcalFromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsHcalFromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 patPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000 selectedPatPhotons
+
+TimeReport ---------- Modules in Path: ana_step ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 hcalNoise
+TimeReport   0.000000   0.000000   0.000000   0.000000 icPu5JetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu1PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu2PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu3PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu4PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu5PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu6PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu1CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu2CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu3CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu4CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu5CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 akPu6CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak1PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak2PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak3PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak4PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak5PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak6PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak1CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak2CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak3CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak4CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak5CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 ak6CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 multiPhotonAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 anaTrack
+TimeReport   0.000000   0.000000   0.000000   0.000000 mergedTrack
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfcandAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 met
+TimeReport   0.000000   0.000000   0.000000   0.000000 anaMET
+TimeReport   0.000000   0.000000   0.000000   0.000000 muonTree
+TimeReport   0.000000   0.000000   0.000000   0.000000 hiEvtAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 hltMuTree
+TimeReport   0.000000   0.000000   0.000000   0.000000 HiForest
+
+TimeReport ---------- Modules in Path: pcollisionEventSelection ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 noBSChalo
+TimeReport   0.000000   0.000000   0.000000   0.000000 towersAboveThreshold
+TimeReport   0.000000   0.000000   0.000000   0.000000 hfPosTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 hfNegTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000 hfPosFilter3
+TimeReport   0.000000   0.000000   0.000000   0.000000 hfNegFilter3
+TimeReport   0.000000   0.000000   0.000000   0.000000 primaryVertexFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000 siPixelRecHits
+TimeReport   0.000000   0.000000   0.000000   0.000000 hltPixelClusterShapeFilter
+
+TimeReport ---------- Modules in Path: pHBHENoiseFilter ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 HBHENoiseFilter
+
+TimeReport ---------- Modules in Path: phiEcalRecHitSpikeFilter ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 hiEcalRecHitSpikeFilter
+
+TimeReport ---------- Modules in Path: hltAna ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 hltanalysis
+
+TimeReport ---------- Modules in Path: rechitAna ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 rechitanalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000 pfTowers
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event      per module-visit 
+
+TimeReport ------ Modules in End-Path: pAna ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000000   0.000000   0.000000   0.000000 skimanalysis
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event      per module-visit 
+
+TimeReport ---------- Module Summary ---[sec]----
+TimeReport             per event        per module-run      per module-visit 
+TimeReport        CPU       Real        CPU       Real        CPU       Real Name
+TimeReport   0.001000   0.000957   0.001000   0.000957   0.001000   0.000957 hiTracks
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hiCaloTracks
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hiMergedTracks
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 towerMakerPF
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 particleFlowRecHitECAL
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 particleFlowClusterECAL
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 particleFlowRecHitHCAL
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 particleFlowClusterHCAL
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 particleFlowClusterHFHAD
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 particleFlowClusterHFEM
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 particleFlowRecHitPS
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 particleFlowClusterPS
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTrack
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTrackElec
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 particleFlowBlock
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 particleFlowTmp
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 iterativeConePu5CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 PFTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 l1extraParticles
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 iterativeCone5CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu1PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu2PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu3PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu4PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu5PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu6PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak1PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak2PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak3PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak4PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak6PFJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu1CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu2CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu3CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu4CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu5CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu6CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak1CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak2CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak3CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak4CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak6CaloJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 islandBasicClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 islandSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 correctedIslandBarrelSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 correctedIslandEndcapSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanedHybridSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 uncleanedHybridSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hybridSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 correctedHybridSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 uncleanedOnlyCorrectedHybridSuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 multi5x5BasicClustersCleaned
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 multi5x5SuperClustersCleaned
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 multi5x5BasicClustersUncleaned
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 multi5x5SuperClustersUncleaned
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 multi5x5SuperClusters
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 multi5x5SuperClustersWithPreshower
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 correctedMulti5x5SuperClustersWithPreshower
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 multi5x5PreshowerClusterShape
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 uncleanedOnlyMulti5x5SuperClustersWithPreshower
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 uncleanedOnlyCorrectedMulti5x5SuperClustersWithPreshower
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 correctedEndcapSuperClustersWithPreshower
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 preshowerClusterShape
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hiSpikeCleanedSC
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPhotonCore
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 cleanPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 goodPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 filterGoodPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 icPu5corr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 icPu5patJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu1PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu1PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu2PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu2PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu3PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu3PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu4PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu4PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu5PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu5PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu6PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu6PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu1Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu1CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu2Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu2CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu3Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu3CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu4Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu4CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu5Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu5CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu6Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu6CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak1PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak1PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak2PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak2PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak3PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak3PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak4PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak4PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak6PFcorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak6PFpatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak1Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak1CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak2Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak2CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak3Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak3CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak4Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak4CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak6Calocorr
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak6CalopatJets
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoCC1
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoCC2
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoCC3
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoCC4
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoCC5
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoCR1
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoCR2
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoCR3
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoCR4
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoCR5
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT11
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT12
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT13
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT14
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT21
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT22
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT23
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT24
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT31
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT32
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT33
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT34
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT41
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT42
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT43
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoT44
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR11
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR12
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR13
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR14
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR21
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR22
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR23
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR24
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR31
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR32
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR33
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR34
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR41
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR42
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR43
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 isoDR44
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 PhotonIDProd
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 interestingEcalDetIdEB
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 interestingEcalDetIdEBU
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 interestingEcalDetIdEE
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 reducedEcalRecHitsEB
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 reducedEcalRecHitsEE
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 selectDigi
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 reducedEcalRecHitsES
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoDepositTk
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoDepositEcalFromHits
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoDepositHcalFromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoDepositHcalDepth1FromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoDepositHcalDepth2FromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsTk
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsEcalFromHitsByCrystal
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsHcalFromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsHcalDepth1FromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsHcalDepth2FromTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 gamIsoFromDepsEcalFromHits
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 patPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 selectedPatPhotons
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hcalNoise
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 icPu5JetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu1PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu2PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu3PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu4PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu5PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu6PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu1CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu2CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu3CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu4CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu5CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 akPu6CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak1PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak2PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak3PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak4PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak6PFJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak1CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak2CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak3CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak4CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak5CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 ak6CaloJetAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 multiPhotonAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 anaTrack
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 mergedTrack
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfcandAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 met
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 anaMET
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 muonTree
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hiEvtAnalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hltMuTree
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 HiForest
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 noBSChalo
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 towersAboveThreshold
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hfPosTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hfNegTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hfPosFilter3
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hfNegFilter3
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 primaryVertexFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 siPixelRecHits
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hltPixelClusterShapeFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 HBHENoiseFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hiEcalRecHitSpikeFilter
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 hltanalysis
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 rechitanalyzer
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 pfTowers
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 TriggerResults
+TimeReport   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000 skimanalysis
+TimeReport        CPU       Real        CPU       Real        CPU       Real Name
+TimeReport             per event        per module-run      per module-visit 
+
+T---Report end!
+
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 Fatal Exception      -s PostProcessPath                        1        1
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 Fatal Exception      181969/34206081                   
+    2 fileAction           PostEndRun                        
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  4                   4

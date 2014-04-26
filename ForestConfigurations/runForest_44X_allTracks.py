@@ -13,7 +13,7 @@ process.options = cms.untracked.PSet(
 process.source = cms.Source("PoolSource",
  duplicateCheckMode = cms.untracked.string("noDuplicateCheck"),
     fileNames = cms.untracked.vstring(
-      'file:/net/hisrv0001/home/davidlw/scratch1/HLTStudies/CMSSW_4_4_0_NewZS/src/RECO_highptInNewNotOld_NewZS_Jet50U.root'
+      'file:/afs/cern.ch/work/j/jisun/public/2011reco_highpt.root'
     ))
 
 # Number of events we want to process, -1 = all events
